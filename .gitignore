@@ -1,0 +1,10 @@
+node_modules/
+.svelte-kit/
+.netlify/
+build/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+*.log

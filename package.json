@@ -1,0 +1,27 @@
+{
+  "name": "ponto-de-torra-storefront",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#lib/*.svelte": "./src/lib/*.svelte",
+    "#lib/*.json": "./src/lib/*.json",
+    "#lib/*.css": "./src/lib/*.css",
+    "#lib/*": "./src/lib/*.js"
+  },
+  "scripts": {
+    "dev": "vite dev --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-netlify": "7.0.1",
+    "@sveltejs/kit": "3.1.0",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "svelte": "5.57.2",
+    "svelte-check": "4.4.2",
+    "typescript": "6.0.3",
+    "vite": "8.3.4"
+  }
+}

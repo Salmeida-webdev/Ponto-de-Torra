@@ -1,0 +1,12 @@
+<svelte:head><title>Políticas da demonstração — Ponto de Torra</title><meta name="description" content="Transparência sobre privacidade, entrega, pagamento, trocas e cookies neste protótipo." /></svelte:head>
+<section class="page-hero wrap"><p class="eyebrow">Transparência</p><h1 class="display-title">Políticas da<br /><em>demonstração.</em></h1><p>Este conteúdo descreve os limites do protótipo. Não substitui políticas comerciais ou jurídicas de uma loja ativa.</p></section>
+<article class="article-content wrap">
+	<p><strong>Última revisão:</strong> 19 de outubro de 2026 · <strong>Estado:</strong> documento de demonstração.</p>
+	<h2>Privacidade e dados</h2><p>Esta vitrine não coleta informações de clientes, não envia formulários e não cria pedidos. O carrinho de demonstração usa o armazenamento local do próprio navegador para manter os itens durante a navegação. Ele pode ser removido limpando os dados locais do site.</p><p>Antes de uma operação real, será necessário publicar uma política de privacidade final que identifique o controlador, as finalidades, bases legais, fornecedores, retenção, direitos e canal de atendimento.</p>
+	<h2>Cookies e tecnologias semelhantes</h2><p>O protótipo não instala ferramentas de publicidade ou análise. O navegador pode usar armazenamento local para a funcionalidade demonstrativa do carrinho. Uma loja ativa deverá mapear cada tecnologia e obter consentimento quando aplicável.</p>
+	<h2>Entrega e frete</h2><p>Não há serviço de entrega conectado. Prazos, áreas atendidas, custos, rastreio e transportadoras não estão definidos nem prometidos.</p>
+	<h2>Pagamento</h2><p>Nenhum meio de pagamento está ativo. Não informe dados financeiros nesta demonstração. O checkout não coleta esses dados.</p>
+	<h2>Trocas, devoluções e cancelamentos</h2><p>Como não há venda nesta vitrine, não há política operacional de trocas ou devoluções. As regras finais deverão ser definidas e revisadas antes da abertura de uma loja real.</p>
+	<h2>Produtos, preços e estoque</h2><p>Os nomes, descrições, variantes, valores e disponibilidades são demonstrativos. As imagens conceituais fotorealistas foram geradas por IA para ilustrar o tipo de produto ou preparo descrito; não identificam um item físico, embalagem, lote ou estoque real.</p>
+	<h2>Contato</h2><p>O canal de WhatsApp exibido é <a href="https://wa.me/5583998739712" target="_blank" rel="noopener noreferrer">+55 83 99873-9712</a>. Este protótipo não confirma atendimento, pedido ou prazo de resposta.</p>
+</article>

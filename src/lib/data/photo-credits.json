@@ -1,0 +1,502 @@
+[
+  {
+    "product_id": "p01",
+    "file": "/images/products/p01.jpg",
+    "title": "Casa 01 — Chocolate e Castanhas",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p02",
+    "file": "/images/products/p02.jpg",
+    "title": "Fruta 02 — Frutas Amarelas",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p03",
+    "file": "/images/products/p03.jpg",
+    "title": "Cítrico 03 — Perfil Cítrico",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p04",
+    "file": "/images/products/p04.jpg",
+    "title": "Doce 04 — Caramelo",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p05",
+    "file": "/images/products/p05.jpg",
+    "title": "Floral 05 — Perfil Floral",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p06",
+    "file": "/images/products/p06.jpg",
+    "title": "Cacau 06 — Cacau e Especiarias",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p07",
+    "file": "/images/products/p07.jpg",
+    "title": "Clássico 07 — Perfil Equilibrado",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p08",
+    "file": "/images/products/p08.jpg",
+    "title": "Intenso 08 — Perfil para Espresso",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p09",
+    "file": "/images/products/p09.jpg",
+    "title": "Leve 09 — Perfil para Filtro",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p10",
+    "file": "/images/products/p10.jpg",
+    "title": "Doce da Casa — Blend da Marca",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p11",
+    "file": "/images/products/p11.jpg",
+    "title": "Lote da Estação 01",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p12",
+    "file": "/images/products/p12.jpg",
+    "title": "Lote da Estação 02",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p13",
+    "file": "/images/products/p13.jpg",
+    "title": "Microlote Experimental 01",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p14",
+    "file": "/images/products/p14.jpg",
+    "title": "Microlote Experimental 02",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p15",
+    "file": "/images/products/p15.jpg",
+    "title": "Descafeinado da Casa",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p16",
+    "file": "/images/products/p16.jpg",
+    "title": "Blend para Espresso",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p17",
+    "file": "/images/products/p17.jpg",
+    "title": "Blend para Coado",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p18",
+    "file": "/images/products/p18.jpg",
+    "title": "Café para Cold Brew",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p19",
+    "file": "/images/products/p19.jpg",
+    "title": "Café de Torra Clara",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p20",
+    "file": "/images/products/p20.jpg",
+    "title": "Café de Torra Média",
+    "category": "cafes",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p21",
+    "file": "/images/products/p21.jpg",
+    "title": "Drip Coffee Casa 01",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p22",
+    "file": "/images/products/p22.jpg",
+    "title": "Drip Coffee Fruta 02",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p23",
+    "file": "/images/products/p23.jpg",
+    "title": "Drip Coffee Cítrico 03",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p24",
+    "file": "/images/products/p24.jpg",
+    "title": "Drip Coffee Doce 04",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p25",
+    "file": "/images/products/p25.jpg",
+    "title": "Drip Coffee Clássico 07",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p26",
+    "file": "/images/products/p26.jpg",
+    "title": "Drip Coffee Descafeinado",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p27",
+    "file": "/images/products/p27.jpg",
+    "title": "Kit Degustação Drip",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p28",
+    "file": "/images/products/p28.jpg",
+    "title": "Refil Drip Coffee",
+    "category": "drip",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p29",
+    "file": "/images/products/p29.jpg",
+    "title": "Coador V60",
+    "category": "metodos",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p30",
+    "file": "/images/products/p30.jpg",
+    "title": "Prensa Francesa",
+    "category": "metodos",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p31",
+    "file": "/images/products/p31.jpg",
+    "title": "Cafeteira Italiana",
+    "category": "metodos",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p32",
+    "file": "/images/products/p32.jpg",
+    "title": "Coador de Pano Reutilizável",
+    "category": "metodos",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p33",
+    "file": "/images/products/p33.jpg",
+    "title": "Balança Digital para Café",
+    "category": "metodos",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p34",
+    "file": "/images/products/p34.jpg",
+    "title": "Moedor Manual",
+    "category": "metodos",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p35",
+    "file": "/images/products/p35.jpg",
+    "title": "Filtros de Papel para V60",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p36",
+    "file": "/images/products/p36.jpg",
+    "title": "Filtros de Papel para Cafeteira",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p37",
+    "file": "/images/products/p37.jpg",
+    "title": "Servidor de Café",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p38",
+    "file": "/images/products/p38.jpg",
+    "title": "Colher Dosadora",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p39",
+    "file": "/images/products/p39.jpg",
+    "title": "Pote Hermético para Café",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p40",
+    "file": "/images/products/p40.jpg",
+    "title": "Caneca Ponto de Torra",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p41",
+    "file": "/images/products/p41.jpg",
+    "title": "Copo Térmico",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p42",
+    "file": "/images/products/p42.jpg",
+    "title": "Conjunto de Escovas de Limpeza",
+    "category": "acessorios",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p43",
+    "file": "/images/products/p43.jpg",
+    "title": "Primeiro Coado",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p44",
+    "file": "/images/products/p44.jpg",
+    "title": "Ritual V60",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p45",
+    "file": "/images/products/p45.jpg",
+    "title": "Ritual Prensa",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p46",
+    "file": "/images/products/p46.jpg",
+    "title": "Espresso em Casa",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p47",
+    "file": "/images/products/p47.jpg",
+    "title": "Cold Brew em Casa",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p48",
+    "file": "/images/products/p48.jpg",
+    "title": "Kit Degustação da Casa",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p49",
+    "file": "/images/products/p49.jpg",
+    "title": "Kit Presente Pequeno",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  },
+  {
+    "product_id": "p50",
+    "file": "/images/products/p50.jpg",
+    "title": "Kit Presente Completo",
+    "category": "kits",
+    "image_type": "fotografia conceitual fotorealista gerada por IA",
+    "style": "fundo aveia claro, luz suave lateral e sombras naturais",
+    "illustrative": true,
+    "changes": "Gerada individualmente para este produto; reduzida para até 760 px e comprimida em JPEG progressivo para a vitrine."
+  }
+]
