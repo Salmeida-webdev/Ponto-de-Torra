@@ -31,20 +31,22 @@ RLS está habilitado nas tabelas expostas. RPCs `SECURITY DEFINER` de pedido, es
 | `melhor-envio-oauth-start` | JWT de administrador | Gera state de uso único e inicia o OAuth. |
 | `melhor-envio-oauth-callback` | Callback público de OAuth | Consome state e grava tokens rotacionáveis no Vault. |
 | `melhor-envio-quotes` | Público, rate limit | Calcula opções usando catálogo e endereço cotado no servidor. |
-| `asaas-create-checkout` | Ativa no Supabase (v4) | Cria pedido e reserva, gera checkout PIX/cartão no Sandbox, persiste link e impede duplicidade por pedido. Recusa produto sem imagem principal no Storage; aceita origem local para testes. |
-| `asaas-webhook` | Ativa no Supabase (v3) | Valida `asaas-access-token`, deduplica por ID de evento e confirma pagamento/baixa ou libera reserva. |
+| `asaas-create-checkout` | Pública, configuração validada antes de qualquer gravação | Cria pedido e reserva, gera Checkout PIX/cartão, persiste o ID retornado pelo Asaas e usa URL oficial de Checkout. Recusa produto sem imagem principal no Storage. |
+| `asaas-webhook` | Pública, protegida por `asaas-access-token` | Registra eventos, reivindica cada ID atomicamente, recupera a associação pelo `externalReference` quando o evento chega antes de o ID ser salvo e confirma pagamento/baixa ou libera reserva. |
 | etiqueta, rastreio e cancelamento | Pendente | Executa ciclo logístico após o pedido ser pago. |
 
 ## Configuração e estado
 
 As variáveis e os passos para criar o app estão em `docs/CONFIGURACAO-MELHOR-ENVIO.md` e `.env.example`. Segredos devem ser definidos em Supabase Edge Function Secrets. O projeto ativo é `Ponto de Torra` (`ujmjeizvektvctfrlgia`) e a nova migração mantém uma única base.
 
-O backend de cotação está preparado e ativo no Supabase (v14); sua execução depende do app OAuth da Melhor Envio, CEP de origem, User-Agent e credenciais configuradas. Checkout e webhook Asaas estão ativos no Supabase Sandbox; o responsável confirmou o token do webhook e o pepper de rate limit. Ainda faltam catálogo/imagens e testes integrados locais. Etiquetas e rastreio seguem pendentes; não abrir vendas antes desses testes.
+O estado remoto foi consultado em 20/10/2026. O Supabase está saudável, mas as Edge Functions Asaas publicadas ainda não incluem estas correções e as duas novas migrations locais ainda não foram aplicadas. A homologação do Checkout permanece pendente.
 
 ## Checkout Asaas (sandbox)
 
 `POST /functions/v1/asaas-create-checkout` recebe `idempotency_key`, `shipping_quote_option_id`, `customer`, `shipping_address` e itens `{ variant_id, quantity }`. O cliente não escolhe preço, total, link do Asaas ou situação do pagamento. O servidor calcula o fingerprint do carrinho, chama `create_order_and_reserve`, monta itens com snapshots do banco e só envia o checkout quando cada produto tiver imagem principal acessível no bucket `product-images`. A API atual do Asaas exige `imageBase64` nos itens.
 
-O pagamento permanece em Sandbox (`ASAAS_API_BASE_URL=https://api-sandbox.asaas.com/v3`) e usa PIX e cartão à vista. A resposta retorna `checkout_url`; o redirecionamento do navegador não altera o pedido. Se a chamada à API expirar sem resposta, a função mantém a trava e não cria outra sessão automaticamente para evitar duplicidade; a reconciliação manual ainda precisa ser definida.
+O Sandbox é o padrão (`ASAAS_API_BASE_URL=https://api-sandbox.asaas.com/v3`) e o Checkout usa PIX e cartão à vista. `PUBLIC_SITE_URL` precisa ser uma origem HTTPS pública. A função valida essa origem e o domínio oficial da API antes de gravar pedido ou reserva, gera os três callbacks em `/checkout/retorno` e envia um `User-Agent` que identifica a aplicação. A resposta prioriza o link do Asaas quando o domínio e o ID da sessão são válidos; o fallback segue o formato `checkoutSession/show?id=...`. O redirecionamento do navegador não confirma pagamento.
 
-`POST /functions/v1/asaas-webhook` compara `ASAAS_WEBHOOK_AUTH_TOKEN` com o cabeçalho `asaas-access-token`. `CHECKOUT_PAID` chama `commit_order_stock`; cancelamento/expiração chama a liberação da reserva. Eventos repetidos são deduplicados por `(provider, provider_event_id)`. Use token com pelo menos 32 caracteres, sem espaços e diferente da API key.
+Se a requisição ao Asaas expirar depois de ser enviada, o backend mantém o pedido e a reserva para evitar criar uma sessão duplicada. Um evento autenticado com `externalReference` pode associar o Checkout quando chega antes de o ID ser salvo. Se nenhum evento chegar, ainda é necessária reconciliação operacional; a referência do Asaas consultada não oferece leitura de Checkout por referência externa.
+
+`POST /functions/v1/asaas-webhook` compara `ASAAS_WEBHOOK_AUTH_TOKEN` com o cabeçalho `asaas-access-token`. `CHECKOUT_PAID` chama `commit_order_stock`; cancelamento/expiração chama a liberação da reserva. Cada evento é reivindicado atomicamente pelo ID, com retomada após dez minutos se um processamento for interrompido. Use token com pelo menos 32 caracteres, sem espaços e diferente da API key.

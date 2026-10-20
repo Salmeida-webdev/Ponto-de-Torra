@@ -1,4 +1,5 @@
 import { adminClient, corsHeaders, json, sha256Hex } from "../_shared/me.ts";
+import { calculateCouponDiscountCents } from "../_shared/coupons.ts";
 
 type Item = { variant_id: string; quantity: number };
 
@@ -40,8 +41,8 @@ Deno.serve(async (req) => {
       if (error) throw new Error("coupon_capacity_check_failed");
       if (coupon.usage_count + (count ?? 0) >= coupon.usage_limit) return json({ error: "Este cupom atingiu o limite de usos." }, 422, origin);
     }
-    const discount = coupon.discount_type === "percent" ? Math.floor(subtotal * coupon.discount_value / 100) : Math.min(coupon.discount_value, subtotal);
-    if (discount < 1) return json({ error: "Este cupom não gera desconto para o carrinho atual." }, 422, origin);
+    const discount = calculateCouponDiscountCents(coupon.discount_type, coupon.discount_value, subtotal);
+    if (discount === null) return json({ error: "Este cupom não é válido para o carrinho atual." }, 422, origin);
     return json({ code: coupon.code, discount_cents: discount, subtotal_cents: subtotal }, 200, origin);
   } catch (error) {
     console.error("validate-coupon", error instanceof Error ? error.message : "unknown");

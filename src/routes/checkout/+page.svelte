@@ -5,6 +5,7 @@
 	import { restoreCart } from '#lib/stores/cart';
 	import { formatPrice } from '#lib/data/products';
 	import { commerceFunctionsReady, invokeCommerceFunction, refreshCartPrices } from '#lib/services/supabase-functions';
+	import { normalizeBrazilianPhone } from '../../../supabase/functions/_shared/customer';
 
 	type ShippingQuote = { id: string; company_name: string; service_name: string; price_cents: number; delivery_days: number | null; expires_at: string };
 	type QuotesResponse = { quotes: ShippingQuote[]; expires_at: string };
@@ -109,6 +110,10 @@
 		errorMessage = '';
 		if (!cartPricingReady) { errorMessage = 'Aguarde a atualização dos preços do carrinho.'; return; }
 		const form = document.querySelector<HTMLFormElement>('.checkout-form');
+		const phoneInput = form?.elements.namedItem('phone');
+		if (phoneInput instanceof HTMLInputElement) {
+			phoneInput.setCustomValidity(normalizeBrazilianPhone(customer.phone) ? '' : 'Informe um telefone brasileiro com DDD.');
+		}
 		if (form && !form.reportValidity()) return;
 		if (!selectedQuoteId || !quotes.some((quote) => quote.id === selectedQuoteId)) {
 			errorMessage = 'Selecione uma opção de frete para continuar.';
@@ -142,7 +147,7 @@
 			if (
 				!result.checkout_url ||
 				!result.checkout_url.startsWith('https://') ||
-				!(checkoutHost === 'asaas.com' || checkoutHost.endsWith('.asaas.com'))
+				!(checkoutHost === 'asaas.com' || checkoutHost === 'sandbox.asaas.com')
 			) {
 				throw new Error('O checkout retornou um endereço inválido. Tente novamente.');
 			}
@@ -228,7 +233,7 @@
 				<button class="button button-dark checkout-pay-button" type="button" onclick={startPayment} disabled={!selectedQuoteId || creatingCheckout || !commerceFunctionsReady || !cartPricingReady}>
 					{creatingCheckout ? 'Conectando ao pagamento…' : 'Continuar para pagamento'}
 				</button>
-				<p class="checkout-disclaimer">O pedido será confirmado após a aprovação do pagamento. Você receberá a atualização do status assim que ela for processada.</p>
+				<p class="checkout-disclaimer">Na próxima etapa, a Asaas solicitará os dados de faturamento necessários. O pedido será confirmado após a aprovação do pagamento.</p>
 			</aside>
 		</div>
 		{#if errorMessage}<p class="checkout-error" role="alert">{errorMessage}</p>{/if}

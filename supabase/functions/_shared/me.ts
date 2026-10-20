@@ -15,16 +15,22 @@ export function adminClient(): SupabaseClient {
 }
 
 export function corsHeaders(origin?: string): HeadersInit {
-  const configured = Deno.env.get("PUBLIC_SITE_URL");
-  const allowed = configured ? new URL(configured).origin : "";
-  let localOrigin = "";
+  let allowedOrigin = "";
+  try {
+    const configured = Deno.env.get("PUBLIC_SITE_URL");
+    if (configured) {
+      const parsed = new URL(configured);
+      if (parsed.protocol === "https:" && !parsed.username && !parsed.password) allowedOrigin = parsed.origin;
+    }
+  } catch { /* configuração ausente ou inválida: ainda permita o preflight local */ }
   try {
     const parsed = new URL(origin ?? "");
-    if (parsed.protocol === "http:" && ["localhost", "127.0.0.1"].includes(parsed.hostname)) localOrigin = parsed.origin;
-  } catch { /* sem Origin ou origem inválida */ }
-  const responseOrigin = localOrigin || (allowed ? (origin === allowed ? allowed : allowed) : "*");
+    if (parsed.protocol === "http:" && ["localhost", "127.0.0.1"].includes(parsed.hostname)) allowedOrigin = parsed.origin;
+    else if (parsed.origin === allowedOrigin) allowedOrigin = parsed.origin;
+    else allowedOrigin = "";
+  } catch { /* requisição sem Origin ou origem inválida */ }
   return {
-    "Access-Control-Allow-Origin": responseOrigin,
+    ...(allowedOrigin ? { "Access-Control-Allow-Origin": allowedOrigin } : {}),
     "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
     "Access-Control-Allow-Methods": "POST, OPTIONS",
     "Vary": "Origin",
@@ -32,7 +38,7 @@ export function corsHeaders(origin?: string): HeadersInit {
 }
 
 export function json(data: unknown, status = 200, origin?: string): Response {
-  return new Response(JSON.stringify(data), { status, headers: { ...corsHeaders(origin), "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" } });
+  return new Response(status === 204 ? null : JSON.stringify(data), { status, headers: { ...corsHeaders(origin), "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" } });
 }
 
 export function redirect(location: string, status = 302): Response {

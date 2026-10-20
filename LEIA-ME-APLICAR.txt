@@ -1,0 +1,12 @@
+PONTO DE TORRA — AJUSTE DO CHECKOUT ASAAS
+
+A tentativa da versão 15 confirmou que a Asaas recusava os campos de pagador name e phoneNumber enviados pelo site. A versão 17 da Edge Function já está ativa no Supabase.
+
+Este pacote atualiza os arquivos locais: o pedido continua salvando nome, e-mail, telefone e endereço para a loja; esses dados não são pré-enviados no objeto customerData da Asaas. A pessoa informará os dados de faturamento diretamente no checkout hospedado pela Asaas, conforme o fluxo documentado pela plataforma.
+
+APLICAR E TESTAR
+1. Extraia o pacote sobre a pasta local do projeto Ponto-de-Torra, confirmando a substituição dos arquivos. O .env não está neste ZIP e será preservado.
+2. Pare o servidor anterior com Ctrl+C e rode: npm run dev -- --host 127.0.0.1 --port 5181
+3. Na loja local, atualize a cotação de frete e clique em “Continuar para pagamento”.
+
+Este pacote não publica o frontend nem contém chaves ou segredos.

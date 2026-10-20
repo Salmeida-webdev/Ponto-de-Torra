@@ -1,0 +1,12 @@
+PONTO DE TORRA — CORREÇÃO DO CHECKOUT ASAAS
+
+Diagnóstico confirmado no Sandbox: faltava CPF/CNPJ e o telefone estava num formato recusado. A Edge Function corrigida já está publicada no Supabase, versão 15. Este pacote atualiza os arquivos locais, incluindo o formulário do checkout.
+
+APLICAR E TESTAR
+1. Extraia este ZIP sobre a pasta do projeto Ponto-de-Torra e confirme a substituição dos arquivos.
+2. Reinicie o servidor local. O arquivo .env existente será preservado.
+3. Calcule o frete, informe um CPF/CNPJ válido e telefone brasileiro com DDD (10 ou 11 dígitos) e clique em “Continuar para pagamento”.
+
+O CPF/CNPJ é enviado à Asaas porque o Sandbox exigiu esse dado. O projeto não grava o documento nas tabelas da loja. Telefones informados com +55 são convertidos para o padrão nacional antes do envio.
+
+O pacote não inclui .env nem chaves e não publica o frontend.

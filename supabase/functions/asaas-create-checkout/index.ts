@@ -1,22 +1,18 @@
 import { adminClient, corsHeaders, json } from "../_shared/me.ts";
+import { buildAsaasCallbacks, buildAsaasCheckoutUrl, normalizeAsaasApiBase, normalizePublicSiteOrigin } from "../_shared/asaas.ts";
+import { normalizeBrazilianPhone } from "../_shared/customer.ts";
 
 type CartItem = { variant_id: string; quantity: number };
 type CheckoutRequest = {
   idempotency_key: string;
   shipping_quote_option_id: string;
-  customer: { name: string; email: string; phone?: string };
+  customer: { name: string; email: string; phone: string };
   shipping_address: Record<string, unknown>;
   items: CartItem[];
   coupon_code?: string | null;
 };
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const apiBase = (Deno.env.get("ASAAS_API_BASE_URL") ?? "https://api-sandbox.asaas.com/v3").replace(/\/$/, "");
-
-function checkoutUrl(checkoutId: string): string {
-  const host = apiBase.includes("sandbox") ? "sandbox.asaas.com" : "asaas.com";
-  return `https://${host}/checkoutSession/show/${encodeURIComponent(checkoutId)}`;
-}
 
 function base64(bytes: Uint8Array): string {
   let binary = "";
@@ -35,7 +31,7 @@ function validRequest(body: unknown): body is CheckoutRequest {
     && typeof value.shipping_quote_option_id === "string" && UUID.test(value.shipping_quote_option_id)
     && !!customer && typeof customer.name === "string" && customer.name.trim().length >= 2 && customer.name.length <= 120
     && typeof customer.email === "string" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customer.email) && customer.email.length <= 254
-    && (customer.phone === undefined || (typeof customer.phone === "string" && customer.phone.length <= 30))
+    && typeof customer.phone === "string" && customer.phone.length <= 30 && normalizeBrazilianPhone(customer.phone) !== null
     && !!value.shipping_address && typeof value.shipping_address === "object" && !Array.isArray(value.shipping_address)
     && Array.isArray(items) && items.length > 0 && items.length <= 50
     && items.every((item) => !!item && typeof item.variant_id === "string" && UUID.test(item.variant_id)
@@ -46,7 +42,7 @@ function validRequest(body: unknown): body is CheckoutRequest {
 function requestHash(value: CheckoutRequest): Promise<string> {
   const canonical = JSON.stringify({
     quote: value.shipping_quote_option_id,
-    customer: { name: value.customer.name.trim(), email: value.customer.email.trim().toLowerCase(), phone: value.customer.phone?.trim() ?? "" },
+    customer: { name: value.customer.name.trim(), email: value.customer.email.trim().toLowerCase(), phone: normalizeBrazilianPhone(value.customer.phone) ?? "" },
     address: value.shipping_address,
     items: [...value.items].sort((a, b) => a.variant_id.localeCompare(b.variant_id)),
     coupon_code: value.coupon_code?.trim().toUpperCase() ?? null,
@@ -62,11 +58,31 @@ Deno.serve(async (req) => {
   if (req.method !== "POST") return json({ error: "Método não permitido." }, 405, req.headers.get("Origin") ?? undefined);
   if (Number(req.headers.get("content-length") ?? 0) > 32_000) return json({ error: "Requisição muito grande." }, 413, origin);
 
-  const asaasKey = Deno.env.get("ASAAS_API_KEY") ?? "";
+  let publicSiteOrigin: string;
+  let asaasApi: { base: string; sandbox: boolean };
+  try {
+    publicSiteOrigin = normalizePublicSiteOrigin(Deno.env.get("PUBLIC_SITE_URL"));
+    asaasApi = normalizeAsaasApiBase(Deno.env.get("ASAAS_API_BASE_URL"));
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "checkout_configuration_invalid";
+    const publicMessage = message === "public_site_url_not_configured"
+      ? "Falta configurar a URL HTTPS pública do site no Supabase."
+      : message === "public_site_url_invalid"
+        ? "A URL pública do site está inválida. Configure apenas a origem HTTPS, sem caminho ou parâmetros."
+        : "A URL da API Asaas está inválida. Use o endereço oficial do Sandbox ou Produção.";
+    console.error("asaas_checkout_configuration", message);
+    return json({ error: publicMessage }, 503, origin);
+  }
+
+  const asaasKey = (Deno.env.get("ASAAS_API_KEY") ?? "").trim();
   const serviceUrl = Deno.env.get("SUPABASE_URL") ?? "";
   const serviceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
   const pepper = Deno.env.get("RATE_LIMIT_PEPPER") ?? "";
-  if (!asaasKey || !serviceUrl || !serviceKey || pepper.length < 32) {
+  if (!asaasKey) {
+    console.error("asaas_checkout_configuration", "asaas_api_key_not_configured");
+    return json({ error: "O pagamento está indisponível porque a chave da Asaas não foi configurada no servidor." }, 503, origin);
+  }
+  if (!serviceUrl || !serviceKey || pepper.length < 32) {
     return json({ error: "Checkout temporariamente indisponível." }, 503, origin);
   }
 
@@ -90,6 +106,16 @@ Deno.serve(async (req) => {
     const { data: fingerprint, error: fingerprintError } = await client.rpc("me_cart_fingerprint", { p_items: merged });
     if (fingerprintError || typeof fingerprint !== "string") throw new Error("cart_fingerprint_failed");
 
+    const couponCode = body.coupon_code?.trim().toUpperCase() || null;
+    if (couponCode) {
+      const { data: coupon, error: couponError } = await client.from("coupons")
+        .select("discount_type,discount_value").eq("code", couponCode).maybeSingle();
+      if (couponError) throw new Error("coupon_lookup_failed");
+      if (coupon?.discount_type === "percent" && (!Number.isInteger(coupon.discount_value) || coupon.discount_value < 1 || coupon.discount_value > 90)) {
+        return json({ error: "Este cupom percentual excede o limite permitido. Escolha outro cupom." }, 409, origin);
+      }
+    }
+
     const rpc = await client.rpc("create_order_and_reserve", {
       p_idempotency_key: body.idempotency_key,
       p_request_hash: await requestHash(body),
@@ -97,10 +123,10 @@ Deno.serve(async (req) => {
       p_shipping_quote_option_id: body.shipping_quote_option_id,
       p_customer_name: body.customer.name.trim(),
       p_customer_email: body.customer.email.trim().toLowerCase(),
-      p_customer_phone: body.customer.phone?.trim() ?? "",
+      p_customer_phone: body.customer.phone.trim(),
       p_shipping_address: body.shipping_address,
       p_items: merged,
-      p_coupon_code: body.coupon_code?.trim().toUpperCase() || null,
+      p_coupon_code: couponCode,
     });
     if (rpc.error || !Array.isArray(rpc.data) || !rpc.data[0]) {
       const code = rpc.error?.message ?? "order_creation_failed";
@@ -128,7 +154,7 @@ Deno.serve(async (req) => {
       .eq("provider", "asaas").eq("idempotency_key", paymentKey).maybeSingle();
     if (payment.error) throw new Error("payment_lookup_failed");
     if (payment.data?.provider_checkout_id) {
-      return json({ order_id: order.order_id, order_number: order.order_number, checkout_url: checkoutUrl(payment.data.provider_checkout_id), expires_at: order.expires_at }, 200, origin);
+      return json({ order_id: order.order_id, order_number: order.order_number, checkout_url: buildAsaasCheckoutUrl(payment.data.provider_checkout_id, asaasApi.sandbox), expires_at: order.expires_at }, 200, origin);
     }
     if (payment.data) return json({ error: "Checkout em processamento. Aguarde alguns instantes antes de tentar novamente." }, 202, origin);
 
@@ -218,24 +244,7 @@ Deno.serve(async (req) => {
     }
 
     const address = orderData.shipping_address as Record<string, unknown>;
-    const configuredSiteUrl = (Deno.env.get("PUBLIC_SITE_URL") ?? "").replace(/\/$/, "");
-    let callback: { successUrl: string; cancelUrl: string; expiredUrl: string } | undefined;
-    if (configuredSiteUrl) {
-      let callbackUrl: URL;
-      try { callbackUrl = new URL(configuredSiteUrl); }
-      catch { throw new Error("public_site_url_invalid"); }
-      if (callbackUrl.protocol !== "https:" || ["localhost", "127.0.0.1"].includes(callbackUrl.hostname)) {
-        throw new Error("public_site_url_must_be_https");
-      }
-      const params = new URLSearchParams({ order: String(order.order_number) });
-      // The storefront's public return route handles success, cancellation, and expiration.
-      const callbackPath = "/checkout/retorno";
-      callback = {
-        successUrl: `${configuredSiteUrl}${callbackPath}?status=sucesso&${params}`,
-        cancelUrl: `${configuredSiteUrl}${callbackPath}?status=cancelado&${params}`,
-        expiredUrl: `${configuredSiteUrl}${callbackPath}?status=expirado&${params}`,
-      };
-    }
+    const callback = buildAsaasCallbacks(publicSiteOrigin, order.order_number);
     const remainingMinutes = Math.floor((new Date(order.expires_at).getTime() - Date.now()) / 60_000);
     if (remainingMinutes < 10) {
       await client.from("payments").delete().eq("id", inserted.data.id);
@@ -249,22 +258,12 @@ Deno.serve(async (req) => {
       chargeTypes: ["DETACHED"],
       minutesToExpire: Math.min(20, remainingMinutes),
       externalReference: order.order_id,
-      ...(callback ? { callback } : {}),
+      callback,
       items: asaasItems,
-      customerData: {
-        name: body.customer.name.trim(),
-        email: body.customer.email.trim().toLowerCase(),
-        phone: body.customer.phone?.replace(/\D/g, "") || undefined,
-        address: typeof address.street === "string" ? address.street : undefined,
-        addressNumber: Number.isInteger(Number(address.number)) ? Number(address.number) : undefined,
-        complement: typeof address.complement === "string" ? address.complement.slice(0, 255) : undefined,
-        province: typeof address.neighborhood === "string" ? address.neighborhood : undefined,
-        postalCode: typeof address.postal_code === "string" ? address.postal_code : undefined,
-      },
     };
-    const response = await fetch(`${apiBase}/checkouts`, {
+    const response = await fetch(`${asaasApi.base}/checkouts`, {
       method: "POST",
-      headers: { access_token: asaasKey, Accept: "application/json", "Content-Type": "application/json" },
+      headers: { access_token: asaasKey, Accept: "application/json", "Content-Type": "application/json", "User-Agent": "Ponto-de-Torra/1.0" },
       body: JSON.stringify(checkoutPayload),
       signal: AbortSignal.timeout(15_000),
     }).catch(() => null);
@@ -275,17 +274,31 @@ Deno.serve(async (req) => {
     if (!response.ok) {
       const providerBody = await response.json().catch(() => ({})) as { errors?: Array<{ code?: string; description?: string }> };
       const providerErrors = Array.isArray(providerBody.errors) ? providerBody.errors : [];
-      const safeDescriptions = providerErrors.map((item) => String(item.description ?? "").trim()).filter(Boolean).slice(0, 3);
-      console.error("asaas_checkout_rejected", JSON.stringify({ status: response.status, errors: providerErrors.map((item) => ({ code: item.code, description: String(item.description ?? "").slice(0, 240) })).slice(0, 3) }));
+      const sensitiveValues = [
+        body.customer.name,
+        body.customer.email,
+        body.customer.phone ?? "",
+        ...Object.values(address).filter((value): value is string => typeof value === "string"),
+        ...orderItems.map((item) => item.sku_snapshot),
+        ...orderItems.map((item) => item.product_name_snapshot),
+        order.order_id,
+      ].filter((value) => value.length >= 3);
+      const safeProviderErrors = providerErrors.slice(0, 3).map((item) => {
+        let description = String(item.description ?? "").slice(0, 500);
+        for (const value of sensitiveValues) description = description.split(value).join("[redacted]");
+        description = description
+          .replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi, "[email]")
+          .replace(/\b\d{8,}\b/g, "[number]");
+        return { code: String(item.code ?? "unknown").slice(0, 80), description: description.slice(0, 240) };
+      });
+      console.error("asaas_checkout_rejected", JSON.stringify({ status: response.status, errors: safeProviderErrors }));
       await client.from("payments").delete().eq("id", inserted.data.id);
       lockedPaymentId = null;
       await client.rpc("release_order_stock", { p_order_id: order.order_id, p_reason: "payment_failed" });
       orderToRelease = null;
       const errorMessage = response.status === 401
-        ? "A chave do Asaas não corresponde ao ambiente configurado (Sandbox ou Produção). Confira a chave e a URL da API."
-        : safeDescriptions.length
-          ? `O Asaas recusou o checkout: ${safeDescriptions.join(" ").slice(0, 500)}`
-          : "O Asaas recusou o checkout. Confira a configuração da conta e tente novamente.";
+        ? "O Asaas não autenticou a requisição. A chave pode estar ausente, inválida, revogada ou ser de outro ambiente."
+        : "O Asaas recusou a criação do checkout. Confira os dados do pedido, URLs de retorno e a configuração da conta.";
       return json({ error: errorMessage }, 502, origin);
     }
     const result = await response.json() as { id?: string; link?: string };
@@ -297,9 +310,7 @@ Deno.serve(async (req) => {
     if (saved.error) throw new Error("checkout_persist_failed");
     lockedPaymentId = null;
     orderToRelease = null;
-    const providerLink = typeof result.link === "string" ? result.link : checkoutUrl(result.id);
-    const parsedLink = new URL(providerLink);
-    if (parsedLink.protocol !== "https:" || !/(^|\.)asaas\.com$/.test(parsedLink.hostname)) throw new Error("asaas_checkout_link_invalid");
+    const providerLink = buildAsaasCheckoutUrl(result.id, asaasApi.sandbox, result.link);
     return json({ order_id: order.order_id, order_number: order.order_number, checkout_url: providerLink, expires_at: order.expires_at }, 201, origin);
   } catch (error) {
     const message = error instanceof Error ? error.message : "checkout_failed";

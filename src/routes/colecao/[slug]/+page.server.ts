@@ -1,9 +1,9 @@
 import { error } from '@sveltejs/kit';
 import { categories } from '#lib/data/products';
 import { loadStoreProducts } from '#lib/data/live-catalog';
-import type { PageLoad } from './$types';
+import type { PageServerLoad } from './$types';
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageServerLoad = async ({ params }) => {
 	const category = categories.find((item) => item.id === params.slug);
 	if (!category) error(404, 'Coleção não encontrada');
 	const liveProducts = await loadStoreProducts();
