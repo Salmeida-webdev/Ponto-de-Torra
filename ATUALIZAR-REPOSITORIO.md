@@ -7,7 +7,7 @@ Se o Git Credential Manager não estiver autenticado, o `git push` abrirá a aut
 Com o ZIP em Downloads, execute:
 
 ```powershell
-Expand-Archive -LiteralPath "$HOME\Downloads\Ponto-de-Torra-publicacao.zip" -DestinationPath "$HOME\Downloads\Ponto-de-Torra-atualizacao" -Force; powershell -NoProfile -ExecutionPolicy Bypass -File "$HOME\Downloads\Ponto-de-Torra-atualizacao\ATUALIZAR-REPOSITORIO.ps1"
+Expand-Archive -LiteralPath "$HOME\Downloads\Ponto-de-Torra-auditoria-final.zip" -DestinationPath "$HOME\Downloads\Ponto-de-Torra-auditoria-final" -Force; powershell -NoProfile -ExecutionPolicy Bypass -File "$HOME\Downloads\Ponto-de-Torra-auditoria-final\ATUALIZAR-REPOSITORIO.ps1"
 ```
 
 O commit na `main` aciona o deploy do Netlify quando o site está conectado a esse repositório e a essa branch. O script não publica pelo CLI da Netlify.

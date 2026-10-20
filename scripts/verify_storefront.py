@@ -47,12 +47,29 @@ for name in ("grinding.jpg", "brewing.jpg"):
 
 footer = (ROOT / "src/lib/components/SiteFooter.svelte").read_text(encoding="utf-8")
 layout = (ROOT / "src/routes/+layout.svelte").read_text(encoding="utf-8")
+faq = (ROOT / "src/routes/perguntas-frequentes/+page.svelte").read_text(encoding="utf-8")
+netlify = (ROOT / "netlify.toml").read_text(encoding="utf-8")
+env_example = (ROOT / ".env.example").read_text(encoding="utf-8")
+commerce = (ROOT / "src/lib/services/supabase-functions.ts").read_text(encoding="utf-8")
+asaas = (ROOT / "supabase/functions/asaas-create-checkout/index.ts").read_text(encoding="utf-8")
 if "wa.me/5583998739712" not in footer:
     errors.append("WhatsApp URL missing or incorrect")
 if "Desenvolvido por LMX Soluções Digitais/Segundo Almeida" not in footer:
     errors.append("required footer credit missing or altered")
-if "Projeto de portfólio" not in layout:
-    errors.append("global demo notice is missing")
+if "demo-notice" in layout or "demo-notice" in (ROOT / "src/lib/components/SiteHeader.svelte").read_text(encoding="utf-8"):
+    errors.append("portfolio disclosure should not be repeated in the global storefront header")
+if "vitrine de portfólio" not in faq.lower():
+    errors.append("the FAQ should identify the storefront as a portfolio page")
+if "PUBLIC_SUPABASE_URL" not in netlify or "PUBLIC_SUPABASE_PUBLISHABLE_KEY" not in netlify:
+    errors.append("Netlify must include the public Supabase client configuration")
+if "SUPABASE_SERVICE_ROLE_KEY" in netlify or "SUPABASE_SERVICE_ROLE_KEY" in env_example:
+    errors.append("a server-side service role key must never be placed in frontend configuration")
+if "typeof payload.error === 'string'" not in commerce:
+    errors.append("commerce API should surface error messages returned with 2xx responses")
+if 'const callbackPath = "/checkout/retorno"' not in asaas:
+    errors.append("Asaas callback must point to the public checkout return route")
+if "será atualizado assim que o pagamento for confirmado" not in (ROOT / "src/routes/checkout/retorno/+page.svelte").read_text(encoding="utf-8"):
+    errors.append("checkout return page must avoid treating browser return as payment confirmation")
 
 print(f"Products: {len(rows)} ({dict(counts)})")
 print(f"Generated product images: {len(images)} ({total_bytes / 1024:.1f} KiB)")

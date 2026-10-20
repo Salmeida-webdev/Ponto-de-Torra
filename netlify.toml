@@ -6,7 +6,7 @@
   NODE_VERSION = "24"
   # Publishable Supabase client configuration. These values are public by design.
   PUBLIC_SUPABASE_URL = "https://ujmjeizvektvctfrlgia.supabase.co"
-  PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_7FNTk3Xi9S9efBcnpAdQIw_p_vqFXxq"
+  PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_7FNTk3XiS9SefBcnpAdQIw_p_vqFXxq"
 
 [[headers]]
   for = "/images/*"

@@ -17,7 +17,11 @@ export async function invokeCommerceFunction<T>(name: string, body: unknown): Pr
 		body: JSON.stringify(body)
 	});
 	const payload = await response.json().catch(() => ({})) as T & { error?: string };
-	if (!response.ok) throw new Error(payload.error || 'Não foi possível concluir esta etapa agora.');
+	// 202 is a successful HTTP status, but checkout may still be processing.
+	// Surface the server message instead of treating a missing checkout_url as a bad URL.
+	if (!response.ok || typeof payload.error === 'string') {
+		throw new Error(payload.error || 'Não foi possível concluir esta etapa agora.');
+	}
 	return payload;
 }
 
