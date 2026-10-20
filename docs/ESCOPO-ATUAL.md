@@ -1,23 +1,21 @@
 # Escopo e sequência de entrega
 
-## Concluído: front público
+## Front público — aprovado, com catálogo dinâmico
 
-Revisados identidade, hierarquia visual, navegação, responsividade, busca, cards, páginas de produto, carrinho demonstrativo, conteúdo, fotos e microcopy. O botão da seção de preparo recebeu correção de contraste; os marcadores repetidos de demonstração foram removidos dos produtos. O site deixa explícito que é um projeto de portfólio.
+Identidade, responsividade, busca, cards, páginas de produto, carrinho, conteúdo e fotos foram revisados. O projeto continua claramente identificado como portfólio. O site não recebeu novo deploy.
 
-## Em revisão: front do painel
+## Painel — funções integradas, em homologação
 
-Primeira versão de interface em `/painel`: dashboard com indicadores, gráfico, pedidos, mais vendidos, estoque baixo e recomendações operacionais; áreas navegáveis de produtos, estoque, pedidos, cupons, conteúdo e histórico. Período do dashboard, busca/filtro de pedidos, exportação CSV, edição demonstrativa de status/rastreio e registro de entradas de estoque funcionam localmente com amostras. A interface identifica todos os dados como ilustrativos. Para o painel final, cada módulo terá operações de cadastro, consulta, edição e arquivamento compatíveis com o briefing: catálogo/variantes/estoque, pedidos (incluindo enviado/rastreio/entregue/cancelado), cupons e conteúdo.
+O `/painel` exige login de administrador e consulta pedidos, produtos, variantes, estoque, cupons e histórico no Supabase. Permite cadastrar/editar produtos e variantes com fotos, configurar cupons, registrar entradas de estoque e acompanhar pedidos com contato, endereço, transportadora, rastreio e entrega.
 
-## Backend aprovado: Supabase, Asaas e Frenet
+Vitrine, coleções, busca e detalhes de produto leem o catálogo ativo do Supabase. O checkout valida cupom no servidor e registra a reserva do desconto de forma atômica com o pedido. O cupom só conta após pagamento aprovado.
 
-O painel foi aprovado para avançar. O banco será um projeto Supabase novo e exclusivo do Ponto de Torra. O gateway financeiro escolhido é o Asaas e o cálculo de frete será pela Frenet. A migração inicial já está preparada em `supabase/migrations`; ela ainda não foi aplicada a um projeto remoto.
+## Backend — Supabase, Asaas e Melhor Envio
 
-O backend deve registrar entradas/saídas auditáveis por SKU/variante; reservar saldo atomicamente ao iniciar o checkout; converter a reserva em baixa definitiva ao confirmar pagamento via webhook do Asaas; liberar reserva em falha, expiração ou cancelamento; impedir saldo negativo e dupla venda concorrente. Estorno financeiro só recompõe estoque quando a mercadoria retornada for conferida.
+O projeto Supabase `Ponto de Torra` está ativo. O banco contém 5 categorias, 50 produtos, 270 variantes, 50 imagens e perfis estimados de peso/dimensões. A cotação Melhor Envio foi testada e confirmada pelo responsável.
 
-A integração de frete deverá cotar pela Frenet no servidor, recalcular a opção escolhida antes de criar o pedido e só exibir etiqueta/rastreio após confirmação real do serviço. Credenciais Asaas e Frenet ficam apenas em variáveis de ambiente do servidor.
+Asaas permanece em Sandbox. Falta homologar pagamento via webhook, idempotência, expiração/recusa, baixa/liberação de estoque e cupom, e atualização de envio até entrega. Nenhuma venda real está habilitada.
 
-## Revisão final e publicação
+## Revisão e publicação
 
-Quando as etapas anteriores estiverem aprovadas: revisar segurança, acessibilidade, SEO e desempenho com dados reais; versionar; confirmar domínio e configurações; então publicar.
-
-O checkout e os dados comerciais continuam como demonstrações. O painel não deve ser usado como ferramenta operacional até o projeto Supabase ser criado, a migração ser aplicada, as credenciais de sandbox configuradas e autenticação/backend serem implementados e revisados.
+Concluir os testes locais de painel e checkout, revisar segurança, acessibilidade, SEO, desempenho e operação, versionar o projeto e confirmar domínio. Publicar o front apenas após a aprovação final.

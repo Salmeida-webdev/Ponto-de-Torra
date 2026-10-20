@@ -12,17 +12,14 @@
 
 <svelte:head>
 	<title>Ponto de Torra — Encontre seu próximo café</title>
-	<meta name="description" content="Explore cafés, drip coffee, métodos de preparo e kits em uma vitrine conceitual de cafés especiais." />
+	<meta name="description" content="Explore cafés especiais, drip coffee, métodos de preparo e kits para encontrar seu próximo ritual." />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Ponto de Torra — Encontre seu próximo café" />
-	<meta property="og:description" content="Uma vitrine conceitual para descobrir cafés e métodos de preparo." />
+	<meta property="og:description" content="Cafés, métodos e acessórios para encontrar seu próximo ritual." />
 	<meta property="og:image" content="/social-card.svg" />
 </svelte:head>
 
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-{#if !isAdmin}
-	<div class="demo-notice"><span class="demo-dot" aria-hidden="true"></span> Projeto de portfólio · compras e pagamentos não estão ativos.</div>
-	<SiteHeader />
-{/if}
+{#if !isAdmin}<SiteHeader />{/if}
 <main id="conteudo">{@render children?.()}</main>
 {#if !isAdmin}<SiteFooter />{/if}

@@ -1,0 +1,5932 @@
+[
+  {
+    "product_id": "34118850-9af5-5cb6-bf07-1c80744a46f6",
+    "variant_id": "a70a7712-dabc-521d-b815-7b7a606ae834",
+    "sku": "PT-001",
+    "slug": "casa-01-chocolate-e-castanhas",
+    "name": "Casa 01 — Chocolate e Castanhas",
+    "category": "cafes",
+    "description": "Um perfil conceitual de torra média, pensado para começar a explorar o café especial.",
+    "price_cents": 4890,
+    "unit": "250 g",
+    "badge": "Mais pedido",
+    "image": "p01.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "a70a7712-dabc-521d-b815-7b7a606ae834",
+        "sku": "PT-001",
+        "price_cents": 4890,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "50448c01-2589-54be-91a2-7775bfa5cfa8",
+        "sku": "PT-001-250-ESP",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1cf4711e-2023-557f-9ccd-b7c7bb6c52c2",
+        "sku": "PT-001-250-FIL",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "6822cc43-914c-5f30-abca-afc0afcd23c2",
+        "sku": "PT-001-250-PRE",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "530bfa05-3fb8-516c-a83b-f20f0c34b73f",
+        "sku": "PT-001-500-BEA",
+        "price_cents": 9291,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "397804c2-ced2-5ccc-b4b8-c4f8f527a29c",
+        "sku": "PT-001-500-ESP",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "bc1b9848-9cec-542d-a785-764228cc66f3",
+        "sku": "PT-001-500-FIL",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "8a5363ed-8e06-58d5-b146-0eae126283fd",
+        "sku": "PT-001-500-PRE",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "5f152972-7b3e-5441-8184-851446dd8378",
+        "sku": "PT-001-1000-BEA",
+        "price_cents": 17604,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "b3e772de-d9e5-5da4-a006-cc6182d6e583",
+        "sku": "PT-001-1000-ESP",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "9fd4247b-4784-54a9-9c90-ffe475b7f38b",
+        "sku": "PT-001-1000-FIL",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "4ce83490-7af9-58b7-b4cd-a71735ca29e7",
+        "sku": "PT-001-1000-PRE",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "0f754607-b54d-5a54-962c-7903e688b16e",
+    "variant_id": "3e71c444-16ca-5c24-ad0e-adbaf1df9841",
+    "sku": "PT-002",
+    "slug": "fruta-02-frutas-amarelas",
+    "name": "Fruta 02 — Frutas Amarelas",
+    "category": "cafes",
+    "description": "Descrição sensorial de referência. A percepção varia entre pessoas e lotes.",
+    "price_cents": 5290,
+    "unit": "250 g",
+    "badge": "Perfil frutado",
+    "image": "p02.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "3e71c444-16ca-5c24-ad0e-adbaf1df9841",
+        "sku": "PT-002",
+        "price_cents": 5290,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "8bf1a114-60de-5211-9885-b9addfb0d4ef",
+        "sku": "PT-002-250-ESP",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "fdd3a77a-b4b6-5077-a63f-d0dbfdefccdf",
+        "sku": "PT-002-250-FIL",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1342ca9d-7a29-5279-b579-136aae20cabd",
+        "sku": "PT-002-250-PRE",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e6b8a822-30ea-5ad1-b308-d52678ff92eb",
+        "sku": "PT-002-500-BEA",
+        "price_cents": 10051,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e61aaa6d-e733-5e98-b99c-c72a17e4dcca",
+        "sku": "PT-002-500-ESP",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "848f1673-1479-59d7-9bca-4f7c78daec99",
+        "sku": "PT-002-500-FIL",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d492b019-8bda-54ce-8259-4f745875cfae",
+        "sku": "PT-002-500-PRE",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d3f914a6-b801-5a1e-8978-6b459f34de05",
+        "sku": "PT-002-1000-BEA",
+        "price_cents": 19044,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "698fb4f3-21c0-592d-8eac-825c11431977",
+        "sku": "PT-002-1000-ESP",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ebff19f5-80d8-549d-925a-a8e4ea739316",
+        "sku": "PT-002-1000-FIL",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1e3237cd-aaff-5751-9f42-10d8558744b8",
+        "sku": "PT-002-1000-PRE",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "e78f6540-58a0-5132-913f-fa34e1a68448",
+    "variant_id": "4edf4d5a-984b-5366-b573-9c1e8c5c30a3",
+    "sku": "PT-003",
+    "slug": "citrico-03-perfil-citrico",
+    "name": "Cítrico 03 — Perfil Cítrico",
+    "category": "cafes",
+    "description": "Um café de perfil cítrico para métodos filtrados. Origem e lote a confirmar.",
+    "price_cents": 5290,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p03.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "4edf4d5a-984b-5366-b573-9c1e8c5c30a3",
+        "sku": "PT-003",
+        "price_cents": 5290,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "91c004fe-ca81-5c2b-9a51-ade496e52e37",
+        "sku": "PT-003-250-ESP",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "11eecba5-af50-5879-81e3-88d825f2e2a8",
+        "sku": "PT-003-250-FIL",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "82bbc4c0-0500-563b-b1c8-491613a9dab3",
+        "sku": "PT-003-250-PRE",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "151e9453-5df7-5b5b-b756-d927e87d5d65",
+        "sku": "PT-003-500-BEA",
+        "price_cents": 10051,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "dbafbc51-86fd-5be4-b99b-cb45957c3c88",
+        "sku": "PT-003-500-ESP",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "657cbe85-485f-586f-a9cd-7eb42a24529b",
+        "sku": "PT-003-500-FIL",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "7877d529-a988-5d13-9fb6-9b871ccdda2a",
+        "sku": "PT-003-500-PRE",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "3cdf6756-cf95-5980-b463-28d824bc6c97",
+        "sku": "PT-003-1000-BEA",
+        "price_cents": 19044,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "308869e5-6e6e-5c1f-8dc8-3bebcdd5ce80",
+        "sku": "PT-003-1000-ESP",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e1bf4142-55fa-5629-aab4-19229ac3c947",
+        "sku": "PT-003-1000-FIL",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "205c1c4d-2e1e-5760-a6b8-225a7dca0141",
+        "sku": "PT-003-1000-PRE",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "eed1e8ce-51b9-5d26-af67-9af0c3cf1093",
+    "variant_id": "cdc01f66-4d11-551c-bf59-5e07e5c6b3f5",
+    "sku": "PT-004",
+    "slug": "doce-04-caramelo",
+    "name": "Doce 04 — Caramelo",
+    "category": "cafes",
+    "description": "Notas de caramelo como referência sensorial, não como garantia de sabor.",
+    "price_cents": 4990,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p04.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "cdc01f66-4d11-551c-bf59-5e07e5c6b3f5",
+        "sku": "PT-004",
+        "price_cents": 4990,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "daeb0be0-aad9-5a5a-93d9-22af8f728162",
+        "sku": "PT-004-250-ESP",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "2a40f245-277e-5d49-b213-44eb259cb351",
+        "sku": "PT-004-250-FIL",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "9af77fc1-b531-5bfa-b5aa-fd6fdd4f9f0c",
+        "sku": "PT-004-250-PRE",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e3922b58-be88-5823-ab04-c00e3ee5c825",
+        "sku": "PT-004-500-BEA",
+        "price_cents": 9481,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "7f1d6cbf-fafa-5946-894e-0d38ab85ab3d",
+        "sku": "PT-004-500-ESP",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f6cfa182-5378-5eb5-a485-dda0d1229070",
+        "sku": "PT-004-500-FIL",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d6ad2aae-6a2a-57c7-b8c6-8ac6e9cb84e0",
+        "sku": "PT-004-500-PRE",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "443e1fd3-1c9d-520a-a253-26c5be39a695",
+        "sku": "PT-004-1000-BEA",
+        "price_cents": 17964,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e59592af-c7b5-541c-b6a0-5f90a012d263",
+        "sku": "PT-004-1000-ESP",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "9a70d7a1-b034-5182-8fb4-361a9d36f806",
+        "sku": "PT-004-1000-FIL",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "4ffd972d-a123-562b-8b39-73ab983f5506",
+        "sku": "PT-004-1000-PRE",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "c4d85fdc-6004-5b2a-ae11-3f41c5e65c55",
+    "variant_id": "1ba44a2a-864b-5cec-9445-f1e1e09c40f1",
+    "sku": "PT-005",
+    "slug": "floral-05-perfil-floral",
+    "name": "Floral 05 — Perfil Floral",
+    "category": "cafes",
+    "description": "Uma proposta leve e aromática. Informações do lote serão definidas depois.",
+    "price_cents": 5590,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p05.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "1ba44a2a-864b-5cec-9445-f1e1e09c40f1",
+        "sku": "PT-005",
+        "price_cents": 5590,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "a78cf483-8a16-5399-b406-db9c37887cf0",
+        "sku": "PT-005-250-ESP",
+        "price_cents": 5590,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "a84ec78a-5760-51b6-a6f1-aac93773350c",
+        "sku": "PT-005-250-FIL",
+        "price_cents": 5590,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "54d073de-76ee-5477-8d7d-7118e97d3bf9",
+        "sku": "PT-005-250-PRE",
+        "price_cents": 5590,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f65dc2cf-9411-5c0a-8cf1-ccfc682fb4b6",
+        "sku": "PT-005-500-BEA",
+        "price_cents": 10621,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ce6cd314-d797-5889-b2b0-59c304635958",
+        "sku": "PT-005-500-ESP",
+        "price_cents": 10621,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c2093fc1-3e0f-5327-afd8-2c12bb1e0825",
+        "sku": "PT-005-500-FIL",
+        "price_cents": 10621,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "4c2ae210-140a-5281-84db-3e0b6b14b04e",
+        "sku": "PT-005-500-PRE",
+        "price_cents": 10621,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "efb0af08-65ac-5287-aea6-a28e5b28a8f1",
+        "sku": "PT-005-1000-BEA",
+        "price_cents": 20124,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e8b7bc6a-0a8a-5842-9668-11765612a3ce",
+        "sku": "PT-005-1000-ESP",
+        "price_cents": 20124,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "6e50b96c-b13b-5c32-9ac2-d70d59547e85",
+        "sku": "PT-005-1000-FIL",
+        "price_cents": 20124,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "09dec463-7e9f-5648-b863-2f4ffa604221",
+        "sku": "PT-005-1000-PRE",
+        "price_cents": 20124,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "7f392e83-5a67-580a-b7a4-9a59cfcaa725",
+    "variant_id": "33ba5358-20d4-5486-8052-09be6295f162",
+    "sku": "PT-006",
+    "slug": "cacau-06-cacau-e-especiarias",
+    "name": "Cacau 06 — Cacau e Especiarias",
+    "category": "cafes",
+    "description": "Perfil conceitual com notas de cacau e especiarias.",
+    "price_cents": 4990,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p06.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "33ba5358-20d4-5486-8052-09be6295f162",
+        "sku": "PT-006",
+        "price_cents": 4990,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "755e30e3-3740-5ccb-bd8e-46d8a34e7769",
+        "sku": "PT-006-250-ESP",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e547fa36-8216-550e-9b88-29297b9c44dc",
+        "sku": "PT-006-250-FIL",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "74bbdd60-dd0c-55b6-bbd2-ff1a851ea54b",
+        "sku": "PT-006-250-PRE",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c60e4161-8b15-5f19-875f-cbbc1d73afcd",
+        "sku": "PT-006-500-BEA",
+        "price_cents": 9481,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "7305e3e6-374f-569b-928d-14dae2ae251b",
+        "sku": "PT-006-500-ESP",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "9ae321bb-7fcf-596c-8162-bb1d9e7ca3aa",
+        "sku": "PT-006-500-FIL",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1967635f-3ba8-5955-80d6-fb290d4b545f",
+        "sku": "PT-006-500-PRE",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f3716cec-9bad-5f35-bc6d-e820442e0d87",
+        "sku": "PT-006-1000-BEA",
+        "price_cents": 17964,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "0ac75d78-ea67-5c00-b693-b87c634d4fa4",
+        "sku": "PT-006-1000-ESP",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "8c5b0be6-29bf-5464-8a93-8af6bd684ba3",
+        "sku": "PT-006-1000-FIL",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "11b1a997-7b4e-56c5-9fc2-3d733bda284e",
+        "sku": "PT-006-1000-PRE",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "d5f8c3d7-8e63-5a0c-b22e-b63dbd48033f",
+    "variant_id": "bad633f3-2300-58d1-b37b-f12d57b64c53",
+    "sku": "PT-007",
+    "slug": "classico-07-perfil-equilibrado",
+    "name": "Clássico 07 — Perfil Equilibrado",
+    "category": "cafes",
+    "description": "Uma sugestão equilibrada para o café do dia a dia.",
+    "price_cents": 4690,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p07.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "bad633f3-2300-58d1-b37b-f12d57b64c53",
+        "sku": "PT-007",
+        "price_cents": 4690,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "6ccb4bed-55dd-5659-9585-0ec627b1bc75",
+        "sku": "PT-007-250-ESP",
+        "price_cents": 4690,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "29639f09-c816-580f-b30a-88a9eb2c5218",
+        "sku": "PT-007-250-FIL",
+        "price_cents": 4690,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "82cc12d6-b668-5c3b-b744-c871b7dc9ece",
+        "sku": "PT-007-250-PRE",
+        "price_cents": 4690,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c4c96276-8fa9-5fe4-9bca-dfa9996fb65b",
+        "sku": "PT-007-500-BEA",
+        "price_cents": 8911,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "4bf86e0d-c01e-5e02-a277-20c76764efba",
+        "sku": "PT-007-500-ESP",
+        "price_cents": 8911,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "274e4344-bb10-5eae-8d07-7dd3de09aa10",
+        "sku": "PT-007-500-FIL",
+        "price_cents": 8911,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "595bfba5-1808-561a-b5b5-5e730c67fc8a",
+        "sku": "PT-007-500-PRE",
+        "price_cents": 8911,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "763c783d-41e4-534d-9e4e-90dfeafbc532",
+        "sku": "PT-007-1000-BEA",
+        "price_cents": 16884,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "71e6d604-e7c8-580a-8878-cd364f8a7b74",
+        "sku": "PT-007-1000-ESP",
+        "price_cents": 16884,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "5078d35e-b75c-550e-b824-7d95bb695513",
+        "sku": "PT-007-1000-FIL",
+        "price_cents": 16884,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "30ec5ff9-03cf-5388-b260-ed58f89cee7a",
+        "sku": "PT-007-1000-PRE",
+        "price_cents": 16884,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "ad0131bb-7e70-5665-b77e-f9b86f1486c5",
+    "variant_id": "ef5698c3-2d7f-550a-b216-523eca9543e9",
+    "sku": "PT-008",
+    "slug": "intenso-08-perfil-para-espresso",
+    "name": "Intenso 08 — Perfil para Espresso",
+    "category": "cafes",
+    "description": "Perfil pensado para espresso. Compatibilidade depende do equipamento.",
+    "price_cents": 4990,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p08.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "ef5698c3-2d7f-550a-b216-523eca9543e9",
+        "sku": "PT-008",
+        "price_cents": 4990,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "a5585e91-67ab-5a33-8f4d-f101c8b3b003",
+        "sku": "PT-008-250-ESP",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "beca63a1-aa77-5d92-9321-e65518dd030e",
+        "sku": "PT-008-250-FIL",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "a5db14ae-aae7-5e87-947b-a05b1d3bf2ab",
+        "sku": "PT-008-250-PRE",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "38e9ecd5-dba9-5fac-a538-8a1259ae6a1a",
+        "sku": "PT-008-500-BEA",
+        "price_cents": 9481,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "cb5c82ea-62de-5169-b656-cabf6c183aea",
+        "sku": "PT-008-500-ESP",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "88a65472-fe04-5595-85e7-0324928d7fa1",
+        "sku": "PT-008-500-FIL",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "5b78d15d-e210-5666-8e0b-29262bfd39d6",
+        "sku": "PT-008-500-PRE",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "943be74d-5f1d-5bfa-bcff-099887ebf522",
+        "sku": "PT-008-1000-BEA",
+        "price_cents": 17964,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "84c97367-92da-5826-aed0-283eab0f696a",
+        "sku": "PT-008-1000-ESP",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "3ea8d3e5-8103-5930-9ce7-596b371e71ec",
+        "sku": "PT-008-1000-FIL",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "bd422ef8-2f6c-5e1a-b087-7493d27edd2c",
+        "sku": "PT-008-1000-PRE",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "7d2baf4c-3cc7-5179-be8a-4d0f342f97bb",
+    "variant_id": "bfef6b42-ddf0-5f43-a0a8-465942d42ee1",
+    "sku": "PT-009",
+    "slug": "leve-09-perfil-para-filtro",
+    "name": "Leve 09 — Perfil para Filtro",
+    "category": "cafes",
+    "description": "Perfil de referência para métodos filtrados.",
+    "price_cents": 5190,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p09.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "bfef6b42-ddf0-5f43-a0a8-465942d42ee1",
+        "sku": "PT-009",
+        "price_cents": 5190,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "d39e5dd6-c440-54ba-b99a-a2a3482513a9",
+        "sku": "PT-009-250-ESP",
+        "price_cents": 5190,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f2883f65-d8fb-50c4-8740-7241d5fbc766",
+        "sku": "PT-009-250-FIL",
+        "price_cents": 5190,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "fe1ebb92-d84f-54e6-be92-6fed50215d14",
+        "sku": "PT-009-250-PRE",
+        "price_cents": 5190,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "02540876-2d6f-5228-aabd-c8d22bf588dc",
+        "sku": "PT-009-500-BEA",
+        "price_cents": 9861,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e869544b-28aa-51f1-b2a3-c46c0c7c0d6a",
+        "sku": "PT-009-500-ESP",
+        "price_cents": 9861,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d8522983-014b-5273-8e1c-b6e3f616c090",
+        "sku": "PT-009-500-FIL",
+        "price_cents": 9861,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "68e42339-60fa-5b87-83bc-26515b108894",
+        "sku": "PT-009-500-PRE",
+        "price_cents": 9861,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "16f7102a-1a01-508e-a143-07485b4a6631",
+        "sku": "PT-009-1000-BEA",
+        "price_cents": 18684,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "db0d2c23-8cc7-5ec0-b884-f363201c5764",
+        "sku": "PT-009-1000-ESP",
+        "price_cents": 18684,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "0a844fc8-a223-52fd-bb93-0f2d79ff7ee9",
+        "sku": "PT-009-1000-FIL",
+        "price_cents": 18684,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "4f7afba4-33c4-516c-bcf0-0dafa36108ce",
+        "sku": "PT-009-1000-PRE",
+        "price_cents": 18684,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "8b2dcebb-c41d-5fc2-81d7-b3f7eda60130",
+    "variant_id": "604c0815-33ff-5280-b65f-452271c316ac",
+    "sku": "PT-010",
+    "slug": "doce-da-casa-blend-da-marca",
+    "name": "Doce da Casa — Blend da Marca",
+    "category": "cafes",
+    "description": "Nome conceitual de blend. Composição e origem ainda não definidas.",
+    "price_cents": 4790,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p10.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "604c0815-33ff-5280-b65f-452271c316ac",
+        "sku": "PT-010",
+        "price_cents": 4790,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "b48f3381-4d30-5f10-b2de-6cab8e20af82",
+        "sku": "PT-010-250-ESP",
+        "price_cents": 4790,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e8dd263f-6936-5017-9146-fc6c60ee972b",
+        "sku": "PT-010-250-FIL",
+        "price_cents": 4790,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1e6ece9f-78d5-5f0b-ae81-8274c169238a",
+        "sku": "PT-010-250-PRE",
+        "price_cents": 4790,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ca505cc1-53f6-5f1c-8cc8-39cd6a54ae46",
+        "sku": "PT-010-500-BEA",
+        "price_cents": 9101,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1f264a9b-c5bb-5d42-abf3-4f4a52469b1e",
+        "sku": "PT-010-500-ESP",
+        "price_cents": 9101,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "478caa7a-6d89-5b36-9fd2-a44dc8cf90dd",
+        "sku": "PT-010-500-FIL",
+        "price_cents": 9101,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e61a497e-1011-5f38-b211-298827e21d22",
+        "sku": "PT-010-500-PRE",
+        "price_cents": 9101,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "67e3f540-a090-5950-bfd6-ca25a84ab83d",
+        "sku": "PT-010-1000-BEA",
+        "price_cents": 17244,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "5c3c5692-fb06-5f74-884c-e268ed37a016",
+        "sku": "PT-010-1000-ESP",
+        "price_cents": 17244,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "12640dbb-abe3-5f88-a309-2bc7d4968341",
+        "sku": "PT-010-1000-FIL",
+        "price_cents": 17244,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "cd0dd918-1d99-51b9-afc7-bb178ad76ce2",
+        "sku": "PT-010-1000-PRE",
+        "price_cents": 17244,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "060e3350-e289-531a-b218-5898cd53c583",
+    "variant_id": "c191be1c-0754-5400-bd6e-56852bf48d50",
+    "sku": "PT-011",
+    "slug": "lote-da-estacao-01",
+    "name": "Lote da Estação 01",
+    "category": "cafes",
+    "description": "Nome demonstrativo. Safra, origem e processo dependem de um lote real.",
+    "price_cents": 5990,
+    "unit": "250 g",
+    "badge": "Lote conceitual",
+    "image": "p11.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "c191be1c-0754-5400-bd6e-56852bf48d50",
+        "sku": "PT-011",
+        "price_cents": 5990,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "97ef8a4e-e5bf-5029-974e-7bfde901e024",
+        "sku": "PT-011-250-ESP",
+        "price_cents": 5990,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "11636af2-50d2-5dd5-90f9-ee219a300181",
+        "sku": "PT-011-250-FIL",
+        "price_cents": 5990,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "66687e55-daa0-57d2-827c-ab1863857561",
+        "sku": "PT-011-250-PRE",
+        "price_cents": 5990,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "9705994f-159d-5620-a4cb-00a43ebf7a3d",
+        "sku": "PT-011-500-BEA",
+        "price_cents": 11381,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "97aea303-3c21-5a2e-baa5-7859cf734345",
+        "sku": "PT-011-500-ESP",
+        "price_cents": 11381,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ba42d83e-1983-5a01-8454-aaf1c61ade82",
+        "sku": "PT-011-500-FIL",
+        "price_cents": 11381,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "818e8611-a876-5411-bbd3-4405cd5c8274",
+        "sku": "PT-011-500-PRE",
+        "price_cents": 11381,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "7e8a4e44-d75d-577a-b23d-74f9e2f73b80",
+        "sku": "PT-011-1000-BEA",
+        "price_cents": 21564,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "0f26442e-1d42-5a88-b030-aa433111212e",
+        "sku": "PT-011-1000-ESP",
+        "price_cents": 21564,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "3aa4c20a-fb54-5aaf-a082-7c35cbd1bf8d",
+        "sku": "PT-011-1000-FIL",
+        "price_cents": 21564,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1fbaa91e-734f-5776-8624-1ec7ddb210ba",
+        "sku": "PT-011-1000-PRE",
+        "price_cents": 21564,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "adcdc236-af8d-5e3e-acdb-6c5fa44c02e8",
+    "variant_id": "9afdc056-c2e6-5e50-8808-f13a9bb1976f",
+    "sku": "PT-012",
+    "slug": "lote-da-estacao-02",
+    "name": "Lote da Estação 02",
+    "category": "cafes",
+    "description": "Nome demonstrativo. Safra, origem e processo dependem de um lote real.",
+    "price_cents": 5990,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p12.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "9afdc056-c2e6-5e50-8808-f13a9bb1976f",
+        "sku": "PT-012",
+        "price_cents": 5990,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "a77f6aa6-2853-53b3-aa43-63268bbb024e",
+        "sku": "PT-012-250-ESP",
+        "price_cents": 5990,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "cb0e275f-cc00-5e37-958d-6e17e913895b",
+        "sku": "PT-012-250-FIL",
+        "price_cents": 5990,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d6074034-0d0a-58d1-bd16-b8691d385879",
+        "sku": "PT-012-250-PRE",
+        "price_cents": 5990,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "741ef0ad-7b59-5990-8860-38038c074850",
+        "sku": "PT-012-500-BEA",
+        "price_cents": 11381,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "8bb3cd1b-5d2c-57b3-b93b-6419fec2e17d",
+        "sku": "PT-012-500-ESP",
+        "price_cents": 11381,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1350e885-b50e-57fe-adc6-59b636d44b93",
+        "sku": "PT-012-500-FIL",
+        "price_cents": 11381,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d290b9d7-5f0b-5eed-876f-7e7a87b449cd",
+        "sku": "PT-012-500-PRE",
+        "price_cents": 11381,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "a1fdc1d9-1778-581c-ba09-139dc0933c79",
+        "sku": "PT-012-1000-BEA",
+        "price_cents": 21564,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "056d32ef-53c1-5f80-a97f-ec52df98f573",
+        "sku": "PT-012-1000-ESP",
+        "price_cents": 21564,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "5970cc0f-f8a5-5f34-83e5-de235ec64e52",
+        "sku": "PT-012-1000-FIL",
+        "price_cents": 21564,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c4905695-9503-51e9-ab29-187217a92c99",
+        "sku": "PT-012-1000-PRE",
+        "price_cents": 21564,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "68d7f6d9-bc41-558b-97fd-c60477f215b8",
+    "variant_id": "42322894-1e97-5ea7-94e0-c20ea41d0c4f",
+    "sku": "PT-013",
+    "slug": "microlote-experimental-01",
+    "name": "Microlote Experimental 01",
+    "category": "cafes",
+    "description": "Perfil de produto conceitual, sem alegações de origem ou certificação.",
+    "price_cents": 6490,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p13.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "42322894-1e97-5ea7-94e0-c20ea41d0c4f",
+        "sku": "PT-013",
+        "price_cents": 6490,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "5d3df6d1-216e-52c9-9f69-fc5a6acb1b96",
+        "sku": "PT-013-250-ESP",
+        "price_cents": 6490,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "93fb406f-10b8-51b6-9f82-9a652ba6a3f4",
+        "sku": "PT-013-250-FIL",
+        "price_cents": 6490,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f7fbc864-3177-599e-b867-7bae5280a81b",
+        "sku": "PT-013-250-PRE",
+        "price_cents": 6490,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f9ec5420-b67d-5b74-8a62-4356e8b96e28",
+        "sku": "PT-013-500-BEA",
+        "price_cents": 12331,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c7a2a2de-d66c-5719-850c-db0763b17b93",
+        "sku": "PT-013-500-ESP",
+        "price_cents": 12331,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ca47b681-78b4-55de-b0ae-86c6ded9b49b",
+        "sku": "PT-013-500-FIL",
+        "price_cents": 12331,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1c1e0ed1-b36f-55d8-a012-1d15bb84a053",
+        "sku": "PT-013-500-PRE",
+        "price_cents": 12331,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c2e55be5-b55f-5871-9c40-fe1d8cae7c26",
+        "sku": "PT-013-1000-BEA",
+        "price_cents": 23364,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "29616f95-4295-57da-9882-8eb311ec19d7",
+        "sku": "PT-013-1000-ESP",
+        "price_cents": 23364,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ae8120f8-0269-5f76-bd29-686f78a4e838",
+        "sku": "PT-013-1000-FIL",
+        "price_cents": 23364,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "cb44b510-b3bd-5390-8ea5-2db8ae3fc489",
+        "sku": "PT-013-1000-PRE",
+        "price_cents": 23364,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "bbe213ef-57ca-55d8-aede-f18f0887e46b",
+    "variant_id": "4eecf727-384e-5a66-9baf-e3e1164f190f",
+    "sku": "PT-014",
+    "slug": "microlote-experimental-02",
+    "name": "Microlote Experimental 02",
+    "category": "cafes",
+    "description": "Perfil de produto conceitual, sem alegações de origem ou certificação.",
+    "price_cents": 6490,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p14.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "4eecf727-384e-5a66-9baf-e3e1164f190f",
+        "sku": "PT-014",
+        "price_cents": 6490,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "69101379-daee-57bb-8a9f-12388bd791ea",
+        "sku": "PT-014-250-ESP",
+        "price_cents": 6490,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "2a6341c1-dbc6-56a7-9651-02c1dbaa4ac3",
+        "sku": "PT-014-250-FIL",
+        "price_cents": 6490,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f3573e56-cb6b-5a7c-bdcf-72b5c6b1c9a6",
+        "sku": "PT-014-250-PRE",
+        "price_cents": 6490,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "5fc30949-cbee-56d7-8ac2-5e084b7befea",
+        "sku": "PT-014-500-BEA",
+        "price_cents": 12331,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "b1fdb8f8-baeb-567d-83f2-85d2167e034d",
+        "sku": "PT-014-500-ESP",
+        "price_cents": 12331,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "9d1a53f1-9c0d-549c-9958-a1ab510e37b9",
+        "sku": "PT-014-500-FIL",
+        "price_cents": 12331,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e87f8f14-3e98-5bda-b98b-9892c43d4460",
+        "sku": "PT-014-500-PRE",
+        "price_cents": 12331,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "fc4df409-4e21-54e9-89b1-506460bf7469",
+        "sku": "PT-014-1000-BEA",
+        "price_cents": 23364,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "48e56f7b-024b-5684-b83a-df641e16ef4d",
+        "sku": "PT-014-1000-ESP",
+        "price_cents": 23364,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "73686d8b-c9d0-5e7c-8b82-db50559c3f37",
+        "sku": "PT-014-1000-FIL",
+        "price_cents": 23364,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d20d19ab-8b5b-58f3-8efb-edea7de9a3a8",
+        "sku": "PT-014-1000-PRE",
+        "price_cents": 23364,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "c23343db-87c8-59c3-aa8d-78b9ae82bc1b",
+    "variant_id": "7a0797ba-1d44-51bd-9605-bc270eb3c435",
+    "sku": "PT-015",
+    "slug": "descafeinado-da-casa",
+    "name": "Descafeinado da Casa",
+    "category": "cafes",
+    "description": "Opção descafeinada de referência. Processo e fornecedor a confirmar.",
+    "price_cents": 5290,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p15.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "7a0797ba-1d44-51bd-9605-bc270eb3c435",
+        "sku": "PT-015",
+        "price_cents": 5290,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "b1976384-3467-5188-bd4b-24f3d877a158",
+        "sku": "PT-015-250-ESP",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "5f8dd16f-dbd4-55df-8137-d254c5e6947d",
+        "sku": "PT-015-250-FIL",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "b26747c9-ad84-5427-9439-b2ba060b8090",
+        "sku": "PT-015-250-PRE",
+        "price_cents": 5290,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "cab0a305-26c8-531b-9a62-e2f17ac8da9b",
+        "sku": "PT-015-500-BEA",
+        "price_cents": 10051,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "b3379378-d1c0-5e9e-a25a-25b0fb1b4c60",
+        "sku": "PT-015-500-ESP",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "6b86ab16-b8d5-5e66-bb79-c210b1b272ea",
+        "sku": "PT-015-500-FIL",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e53ccaaa-52c5-500b-b1db-3bacdf888c26",
+        "sku": "PT-015-500-PRE",
+        "price_cents": 10051,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d8760094-f265-523c-8ac4-07e1ab38f65b",
+        "sku": "PT-015-1000-BEA",
+        "price_cents": 19044,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "953a7a0a-c3c1-510b-ad55-7399398b0297",
+        "sku": "PT-015-1000-ESP",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "51d6b5f3-7edd-5195-8811-acef7f7235df",
+        "sku": "PT-015-1000-FIL",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f09bcbcb-231d-582e-9238-3e5be19b4414",
+        "sku": "PT-015-1000-PRE",
+        "price_cents": 19044,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "57e21ed4-bca9-5f0a-92da-57f06d986ff9",
+    "variant_id": "77cedce6-edff-5df3-b58e-6121a474103d",
+    "sku": "PT-016",
+    "slug": "blend-para-espresso",
+    "name": "Blend para Espresso",
+    "category": "cafes",
+    "description": "Blend de referência para espresso. Receita e proporções a definir.",
+    "price_cents": 4890,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p16.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "77cedce6-edff-5df3-b58e-6121a474103d",
+        "sku": "PT-016",
+        "price_cents": 4890,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "e67fe7d3-5035-54d9-b7b0-625216328589",
+        "sku": "PT-016-250-ESP",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "7c7f83f3-3ff9-5943-976b-1d9356526af2",
+        "sku": "PT-016-250-FIL",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "18ac2c76-7ebd-543e-8bf5-2c60e4451bb2",
+        "sku": "PT-016-250-PRE",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "587ebca6-f8f9-5f9e-b140-53c469715491",
+        "sku": "PT-016-500-BEA",
+        "price_cents": 9291,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f4747055-959f-5776-8317-fba2c37a4202",
+        "sku": "PT-016-500-ESP",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d6d46e51-dc61-5f43-888a-6ffaacfb6374",
+        "sku": "PT-016-500-FIL",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c06b59d0-68d4-50cf-84ef-0d7e03853c8c",
+        "sku": "PT-016-500-PRE",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ab7b8e60-d68c-546d-85aa-e3c843478d13",
+        "sku": "PT-016-1000-BEA",
+        "price_cents": 17604,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "3eb90b33-1cda-5a0a-9154-6117e495d1ec",
+        "sku": "PT-016-1000-ESP",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "19a618d8-41fb-54e2-be88-9d86a32f8ddb",
+        "sku": "PT-016-1000-FIL",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "0acff4a1-bb17-555c-8467-9bdc2a923cc9",
+        "sku": "PT-016-1000-PRE",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "a296006a-f75b-56f4-a51f-04ce0f47c2ff",
+    "variant_id": "cd5ddf0f-3538-55ee-b284-55bc6ddce534",
+    "sku": "PT-017",
+    "slug": "blend-para-coado",
+    "name": "Blend para Coado",
+    "category": "cafes",
+    "description": "Blend de referência para métodos filtrados. Receita a definir.",
+    "price_cents": 4890,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p17.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "cd5ddf0f-3538-55ee-b284-55bc6ddce534",
+        "sku": "PT-017",
+        "price_cents": 4890,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "eed5c546-4ee7-5172-906a-e498b84ced22",
+        "sku": "PT-017-250-ESP",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "2bea67d9-fbd3-558b-abd6-9f86b1e972b0",
+        "sku": "PT-017-250-FIL",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "7bc7e380-a745-5d4d-b415-42db014a705e",
+        "sku": "PT-017-250-PRE",
+        "price_cents": 4890,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c76bb927-a52c-50b2-9a58-05043f611eec",
+        "sku": "PT-017-500-BEA",
+        "price_cents": 9291,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "0ab51747-02fe-50c5-9546-17051b4e0f00",
+        "sku": "PT-017-500-ESP",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "3ea78c86-575a-5fb4-974e-50d1d524526b",
+        "sku": "PT-017-500-FIL",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "93db625c-ad33-5d6d-88ce-f2e4c4a11321",
+        "sku": "PT-017-500-PRE",
+        "price_cents": 9291,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c04914b1-49e4-545c-b3db-d02e901c4f69",
+        "sku": "PT-017-1000-BEA",
+        "price_cents": 17604,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "dbd95c2d-ffe8-5412-9a89-32ada521e211",
+        "sku": "PT-017-1000-ESP",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "df865244-5b3b-5614-bb28-a68bc66f30b3",
+        "sku": "PT-017-1000-FIL",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "4d0cc259-a349-5ea1-ba0a-e0a46271bc09",
+        "sku": "PT-017-1000-PRE",
+        "price_cents": 17604,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "c18e7f93-a75b-5ec4-9bac-48ca33a7078b",
+    "variant_id": "757a5774-971a-5530-bd51-38414fbc9159",
+    "sku": "PT-018",
+    "slug": "cafe-para-cold-brew",
+    "name": "Café para Cold Brew",
+    "category": "cafes",
+    "description": "Perfil de referência para extração a frio. Moagem a confirmar.",
+    "price_cents": 4990,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p18.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "757a5774-971a-5530-bd51-38414fbc9159",
+        "sku": "PT-018",
+        "price_cents": 4990,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "f606c54a-1694-5831-bd9a-8961f0635279",
+        "sku": "PT-018-250-ESP",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "69aefcbb-ed73-591c-9239-8a8cd262ecd5",
+        "sku": "PT-018-250-FIL",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "9b6b4096-f48b-5dbf-85db-c0fe244984b9",
+        "sku": "PT-018-250-PRE",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d8e3a22d-a1e6-50c1-a8e3-f86e9dc9882b",
+        "sku": "PT-018-500-BEA",
+        "price_cents": 9481,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "4617f9a4-5b14-50ac-8b7a-07a3ebe874a7",
+        "sku": "PT-018-500-ESP",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e74fce3b-dfca-571d-8169-bfddb2f0fbda",
+        "sku": "PT-018-500-FIL",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "12c6899c-be3d-5090-b7d6-75ce95fb5096",
+        "sku": "PT-018-500-PRE",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "488b5610-af62-535b-9388-4a087c5fcd3a",
+        "sku": "PT-018-1000-BEA",
+        "price_cents": 17964,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "03f53e39-4187-52fb-8d64-fa1b6101b369",
+        "sku": "PT-018-1000-ESP",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "adf0a245-d295-5cba-9e49-8b0654813939",
+        "sku": "PT-018-1000-FIL",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "172a5db5-a340-51f1-9d74-f647e0ac0d9e",
+        "sku": "PT-018-1000-PRE",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "9c521d4b-5cef-5e76-9139-bdf6dec54ed5",
+    "variant_id": "4b08a1a8-7b2b-5268-b278-4e0b358081de",
+    "sku": "PT-019",
+    "slug": "cafe-de-torra-clara",
+    "name": "Café de Torra Clara",
+    "category": "cafes",
+    "description": "Categoria de torra demonstrativa. Curva e lote a confirmar.",
+    "price_cents": 5390,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p19.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "4b08a1a8-7b2b-5268-b278-4e0b358081de",
+        "sku": "PT-019",
+        "price_cents": 5390,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "ced44448-9fac-5827-ab25-85542a52eeae",
+        "sku": "PT-019-250-ESP",
+        "price_cents": 5390,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "107bad98-1d60-56a1-8c75-597c74eeefb5",
+        "sku": "PT-019-250-FIL",
+        "price_cents": 5390,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "02cd2753-beec-57e5-8bb0-5abc6139da95",
+        "sku": "PT-019-250-PRE",
+        "price_cents": 5390,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ccbf68f9-23e4-51ad-be8d-fd46a35dff6b",
+        "sku": "PT-019-500-BEA",
+        "price_cents": 10241,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "3c3c2956-66af-504f-8223-e05ea0d13963",
+        "sku": "PT-019-500-ESP",
+        "price_cents": 10241,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "7a344078-e466-5720-abc3-ecabca0b296b",
+        "sku": "PT-019-500-FIL",
+        "price_cents": 10241,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f450b649-9b6f-5be6-a996-669331f9dc3b",
+        "sku": "PT-019-500-PRE",
+        "price_cents": 10241,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "968da84e-19f0-58df-8905-5928f27c0cbb",
+        "sku": "PT-019-1000-BEA",
+        "price_cents": 19404,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "6b6a025a-8ee7-5963-969f-adc8145be40e",
+        "sku": "PT-019-1000-ESP",
+        "price_cents": 19404,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "21e589b6-69d0-54e6-a7c0-0869e227347d",
+        "sku": "PT-019-1000-FIL",
+        "price_cents": 19404,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "81be53c7-572f-5557-9fd5-ab78ca80aacf",
+        "sku": "PT-019-1000-PRE",
+        "price_cents": 19404,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "0b9b2547-abe1-5e69-8abb-22421ba87c25",
+    "variant_id": "c334d7e9-2945-573c-b994-cd86dcf96dd0",
+    "sku": "PT-020",
+    "slug": "cafe-de-torra-media",
+    "name": "Café de Torra Média",
+    "category": "cafes",
+    "description": "Categoria de torra demonstrativa. Curva e lote a confirmar.",
+    "price_cents": 4990,
+    "unit": "250 g",
+    "badge": null,
+    "image": "p20.jpg",
+    "weight_grams": 290,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 120,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "c334d7e9-2945-573c-b994-cd86dcf96dd0",
+        "sku": "PT-020",
+        "price_cents": 4990,
+        "unit": "250 g · Em grãos",
+        "label": "250 g · Em grãos",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 12
+      },
+      {
+        "variant_id": "4ac2d34c-f1c8-552c-8dbb-7841a53d6c6a",
+        "sku": "PT-020-250-ESP",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — espresso",
+        "label": "250 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "1f7dc339-5781-5cd5-a300-ee1757510fcb",
+        "sku": "PT-020-250-FIL",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — filtro/coado",
+        "label": "250 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "2c4b170d-e006-52e3-aa21-67e5c939789e",
+        "sku": "PT-020-250-PRE",
+        "price_cents": 4990,
+        "unit": "250 g · Moído — prensa",
+        "label": "250 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 250,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 290,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 120,
+          "height": 60
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "82824a1b-b0b6-5316-939c-98819de580ea",
+        "sku": "PT-020-500-BEA",
+        "price_cents": 9481,
+        "unit": "500 g · Em grãos",
+        "label": "500 g · Em grãos",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "d8163ca2-1082-506a-b252-ff90495d72d9",
+        "sku": "PT-020-500-ESP",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — espresso",
+        "label": "500 g · Moído — espresso",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "e2ea9e78-3446-5708-82bc-0066291f3af2",
+        "sku": "PT-020-500-FIL",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — filtro/coado",
+        "label": "500 g · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "c50818eb-6662-5f17-ac68-3d596cfb8ece",
+        "sku": "PT-020-500-PRE",
+        "price_cents": 9481,
+        "unit": "500 g · Moído — prensa",
+        "label": "500 g · Moído — prensa",
+        "attributes": {
+          "peso_g": 500,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 540,
+        "dimensions_mm": {
+          "length": 230,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "0b4b4e79-4fc6-5d08-bfef-b91f224cb51c",
+        "sku": "PT-020-1000-BEA",
+        "price_cents": 17964,
+        "unit": "1 kg · Em grãos",
+        "label": "1 kg · Em grãos",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Em grãos"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "ea8b862a-7794-556c-94bd-049f954cc7bf",
+        "sku": "PT-020-1000-ESP",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — espresso",
+        "label": "1 kg · Moído — espresso",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — espresso"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "f9475525-ce00-586e-bd39-e9c62e4fabe9",
+        "sku": "PT-020-1000-FIL",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — filtro/coado",
+        "label": "1 kg · Moído — filtro/coado",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — filtro/coado"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      },
+      {
+        "variant_id": "847cee7f-83b3-517e-a56a-b6fa2e1b4563",
+        "sku": "PT-020-1000-PRE",
+        "price_cents": 17964,
+        "unit": "1 kg · Moído — prensa",
+        "label": "1 kg · Moído — prensa",
+        "attributes": {
+          "peso_g": 1000,
+          "moagem": "Moído — prensa"
+        },
+        "weight_grams": 1040,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 6
+      }
+    ]
+  },
+  {
+    "product_id": "219f08fe-80af-5a2e-aabf-e491e28d7106",
+    "variant_id": "e7d49b9f-7ed9-52a6-a1a0-76f70328ef93",
+    "sku": "PT-021",
+    "slug": "drip-coffee-casa-01",
+    "name": "Drip Coffee Casa 01",
+    "category": "drip",
+    "description": "Porção individual de café para preparo direto na xícara. Conteúdo ilustrativo.",
+    "price_cents": 1290,
+    "unit": "1 sachê",
+    "badge": null,
+    "image": "p21.jpg",
+    "weight_grams": 18,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 110,
+      "height": 15
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "e7d49b9f-7ed9-52a6-a1a0-76f70328ef93",
+        "sku": "PT-021",
+        "price_cents": 1290,
+        "unit": "1 sachê",
+        "weight_grams": 18,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 110,
+          "height": 15
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 sachê"
+        },
+        "label": "1 sachê"
+      }
+    ]
+  },
+  {
+    "product_id": "49c94522-2179-57b5-a834-ce159494f0de",
+    "variant_id": "b32b4b56-ce3c-592c-b265-f38cc0548cbf",
+    "sku": "PT-022",
+    "slug": "drip-coffee-fruta-02",
+    "name": "Drip Coffee Fruta 02",
+    "category": "drip",
+    "description": "Porção individual de referência para levar e preparar onde estiver.",
+    "price_cents": 1390,
+    "unit": "1 sachê",
+    "badge": null,
+    "image": "p22.jpg",
+    "weight_grams": 18,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 110,
+      "height": 15
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "b32b4b56-ce3c-592c-b265-f38cc0548cbf",
+        "sku": "PT-022",
+        "price_cents": 1390,
+        "unit": "1 sachê",
+        "weight_grams": 18,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 110,
+          "height": 15
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 sachê"
+        },
+        "label": "1 sachê"
+      }
+    ]
+  },
+  {
+    "product_id": "876da933-eca1-5b09-9057-0821fba9b676",
+    "variant_id": "31fc8b1e-9e03-5b82-b1e2-7a966b70a453",
+    "sku": "PT-023",
+    "slug": "drip-coffee-citrico-03",
+    "name": "Drip Coffee Cítrico 03",
+    "category": "drip",
+    "description": "Perfil cítrico conceitual em formato drip.",
+    "price_cents": 1390,
+    "unit": "1 sachê",
+    "badge": null,
+    "image": "p23.jpg",
+    "weight_grams": 18,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 110,
+      "height": 15
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "31fc8b1e-9e03-5b82-b1e2-7a966b70a453",
+        "sku": "PT-023",
+        "price_cents": 1390,
+        "unit": "1 sachê",
+        "weight_grams": 18,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 110,
+          "height": 15
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 sachê"
+        },
+        "label": "1 sachê"
+      }
+    ]
+  },
+  {
+    "product_id": "9f5e9de6-1374-5101-ad08-623f05d7da3f",
+    "variant_id": "1207bfba-be2a-5e5f-bdc2-cf5ba27abbd6",
+    "sku": "PT-024",
+    "slug": "drip-coffee-doce-04",
+    "name": "Drip Coffee Doce 04",
+    "category": "drip",
+    "description": "Perfil doce conceitual em formato drip.",
+    "price_cents": 1390,
+    "unit": "1 sachê",
+    "badge": null,
+    "image": "p24.jpg",
+    "weight_grams": 18,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 110,
+      "height": 15
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "1207bfba-be2a-5e5f-bdc2-cf5ba27abbd6",
+        "sku": "PT-024",
+        "price_cents": 1390,
+        "unit": "1 sachê",
+        "weight_grams": 18,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 110,
+          "height": 15
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 sachê"
+        },
+        "label": "1 sachê"
+      }
+    ]
+  },
+  {
+    "product_id": "2d0b2152-fb14-5121-ba73-ac678019a624",
+    "variant_id": "4c2d8a95-041a-5eef-bff3-f4126c72e30a",
+    "sku": "PT-025",
+    "slug": "drip-coffee-classico-07",
+    "name": "Drip Coffee Clássico 07",
+    "category": "drip",
+    "description": "Perfil equilibrado de referência em porção individual.",
+    "price_cents": 1290,
+    "unit": "1 sachê",
+    "badge": null,
+    "image": "p25.jpg",
+    "weight_grams": 18,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 110,
+      "height": 15
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "4c2d8a95-041a-5eef-bff3-f4126c72e30a",
+        "sku": "PT-025",
+        "price_cents": 1290,
+        "unit": "1 sachê",
+        "weight_grams": 18,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 110,
+          "height": 15
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 sachê"
+        },
+        "label": "1 sachê"
+      }
+    ]
+  },
+  {
+    "product_id": "19d46824-46a2-5848-8cfb-ca108caaedc8",
+    "variant_id": "75dd6f2c-8848-5e7b-a9f2-e039d7898703",
+    "sku": "PT-026",
+    "slug": "drip-coffee-descafeinado",
+    "name": "Drip Coffee Descafeinado",
+    "category": "drip",
+    "description": "Opção descafeinada de referência em porção individual.",
+    "price_cents": 1490,
+    "unit": "1 sachê",
+    "badge": null,
+    "image": "p26.jpg",
+    "weight_grams": 18,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 110,
+      "height": 15
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "75dd6f2c-8848-5e7b-a9f2-e039d7898703",
+        "sku": "PT-026",
+        "price_cents": 1490,
+        "unit": "1 sachê",
+        "weight_grams": 18,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 110,
+          "height": 15
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 sachê"
+        },
+        "label": "1 sachê"
+      }
+    ]
+  },
+  {
+    "product_id": "b5b7015d-e051-5ef3-8526-cb0a9e863d86",
+    "variant_id": "2c66cf08-d60b-52fe-9a9c-31af848f88c1",
+    "sku": "PT-027",
+    "slug": "kit-degustacao-drip",
+    "name": "Kit Degustação Drip",
+    "category": "drip",
+    "description": "Seleção conceitual de porções individuais. Quantidades a confirmar.",
+    "price_cents": 6990,
+    "unit": "5 sachês",
+    "badge": "Para experimentar",
+    "image": "p27.jpg",
+    "weight_grams": 130,
+    "dimensions_mm": {
+      "length": 180,
+      "width": 130,
+      "height": 45
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "2c66cf08-d60b-52fe-9a9c-31af848f88c1",
+        "sku": "PT-027",
+        "price_cents": 6990,
+        "unit": "5 sachês",
+        "weight_grams": 130,
+        "dimensions_mm": {
+          "length": 180,
+          "width": 130,
+          "height": 45
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "5 sachês"
+        },
+        "label": "5 sachês"
+      }
+    ]
+  },
+  {
+    "product_id": "7d8abb81-f090-52a1-a01b-486d57d02b54",
+    "variant_id": "4a2d64ec-e07f-5b05-a0c5-25541cce61db",
+    "sku": "PT-028",
+    "slug": "refil-drip-coffee",
+    "name": "Refil Drip Coffee",
+    "category": "drip",
+    "description": "Refil conceitual. Compatibilidade e quantidade da caixa a definir.",
+    "price_cents": 5990,
+    "unit": "5 sachês",
+    "badge": null,
+    "image": "p28.jpg",
+    "weight_grams": 130,
+    "dimensions_mm": {
+      "length": 180,
+      "width": 130,
+      "height": 45
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "4a2d64ec-e07f-5b05-a0c5-25541cce61db",
+        "sku": "PT-028",
+        "price_cents": 5990,
+        "unit": "5 sachês",
+        "weight_grams": 130,
+        "dimensions_mm": {
+          "length": 180,
+          "width": 130,
+          "height": 45
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "5 sachês"
+        },
+        "label": "5 sachês"
+      }
+    ]
+  },
+  {
+    "product_id": "3cb3369a-c9c2-50a3-a6b9-a77d6f146d2d",
+    "variant_id": "9d1cc651-a866-5f2d-9b4c-da4850e2032f",
+    "sku": "PT-029",
+    "slug": "coador-v60",
+    "name": "Coador V60",
+    "category": "metodos",
+    "description": "Coador de referência. Tamanho, material e compatibilidade a confirmar.",
+    "price_cents": 8990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p29.jpg",
+    "weight_grams": 270,
+    "dimensions_mm": {
+      "length": 145,
+      "width": 135,
+      "height": 110
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "9d1cc651-a866-5f2d-9b4c-da4850e2032f",
+        "sku": "PT-029",
+        "price_cents": 8990,
+        "unit": "1 unidade",
+        "weight_grams": 270,
+        "dimensions_mm": {
+          "length": 145,
+          "width": 135,
+          "height": 110
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "c35f56b5-da28-595b-8b82-618dc069b95c",
+    "variant_id": "b00fd10c-570b-568b-be74-3bc84db18f2a",
+    "sku": "PT-030",
+    "slug": "prensa-francesa",
+    "name": "Prensa Francesa",
+    "category": "metodos",
+    "description": "Método de imersão. Capacidade e materiais demonstrativos.",
+    "price_cents": 12990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p30.jpg",
+    "weight_grams": 520,
+    "dimensions_mm": {
+      "length": 210,
+      "width": 155,
+      "height": 130
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "b00fd10c-570b-568b-be74-3bc84db18f2a",
+        "sku": "PT-030",
+        "price_cents": 12990,
+        "unit": "1 unidade",
+        "weight_grams": 520,
+        "dimensions_mm": {
+          "length": 210,
+          "width": 155,
+          "height": 130
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "9bea1a01-7ade-5e67-91f2-1d4b2dceb3c9",
+    "variant_id": "4a2f36a2-57bb-5cc7-863d-a8802851984b",
+    "sku": "PT-031",
+    "slug": "cafeteira-italiana",
+    "name": "Cafeteira Italiana",
+    "category": "metodos",
+    "description": "Método moka de referência. Capacidade e materiais a confirmar.",
+    "price_cents": 11990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p31.jpg",
+    "weight_grams": 520,
+    "dimensions_mm": {
+      "length": 190,
+      "width": 120,
+      "height": 180
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "4a2f36a2-57bb-5cc7-863d-a8802851984b",
+        "sku": "PT-031",
+        "price_cents": 11990,
+        "unit": "1 unidade",
+        "weight_grams": 520,
+        "dimensions_mm": {
+          "length": 190,
+          "width": 120,
+          "height": 180
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "acd86c6e-cc30-5410-b667-df0e3b8c642e",
+    "variant_id": "949a3104-aaa2-5332-a6be-58c97f5ce07d",
+    "sku": "PT-032",
+    "slug": "coador-de-pano-reutilizavel",
+    "name": "Coador de Pano Reutilizável",
+    "category": "metodos",
+    "description": "Método tradicional de referência. Tamanho e composição a confirmar.",
+    "price_cents": 2990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p32.jpg",
+    "weight_grams": 150,
+    "dimensions_mm": {
+      "length": 180,
+      "width": 150,
+      "height": 80
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "949a3104-aaa2-5332-a6be-58c97f5ce07d",
+        "sku": "PT-032",
+        "price_cents": 2990,
+        "unit": "1 unidade",
+        "weight_grams": 150,
+        "dimensions_mm": {
+          "length": 180,
+          "width": 150,
+          "height": 80
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "1b3cbf5a-0451-5216-a3fd-2dcd3b12e285",
+    "variant_id": "68d3b60e-6be7-555b-b470-a003d5268644",
+    "sku": "PT-033",
+    "slug": "balanca-digital-para-cafe",
+    "name": "Balança Digital para Café",
+    "category": "metodos",
+    "description": "Acessório conceitual. Precisão, dimensões e alimentação a confirmar.",
+    "price_cents": 8990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p33.jpg",
+    "weight_grams": 360,
+    "dimensions_mm": {
+      "length": 175,
+      "width": 160,
+      "height": 55
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "68d3b60e-6be7-555b-b470-a003d5268644",
+        "sku": "PT-033",
+        "price_cents": 8990,
+        "unit": "1 unidade",
+        "weight_grams": 360,
+        "dimensions_mm": {
+          "length": 175,
+          "width": 160,
+          "height": 55
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "4a86eb5f-5f66-5edd-b712-d94f74f53a26",
+    "variant_id": "34823ca7-11ed-5e96-956b-9fe103750654",
+    "sku": "PT-034",
+    "slug": "moedor-manual",
+    "name": "Moedor Manual",
+    "category": "metodos",
+    "description": "Moedor de referência. Ajustes, capacidade e material a confirmar.",
+    "price_cents": 15990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p34.jpg",
+    "weight_grams": 470,
+    "dimensions_mm": {
+      "length": 205,
+      "width": 85,
+      "height": 85
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "34823ca7-11ed-5e96-956b-9fe103750654",
+        "sku": "PT-034",
+        "price_cents": 15990,
+        "unit": "1 unidade",
+        "weight_grams": 470,
+        "dimensions_mm": {
+          "length": 205,
+          "width": 85,
+          "height": 85
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "ddf0433b-0d26-5698-94f3-af750650c3e7",
+    "variant_id": "f0e37650-a607-5892-b10d-47a41b2ff97e",
+    "sku": "PT-035",
+    "slug": "filtros-de-papel-para-v60",
+    "name": "Filtros de Papel para V60",
+    "category": "acessorios",
+    "description": "Consumível de referência. Formato, quantidade e compatibilidade a confirmar.",
+    "price_cents": 2490,
+    "unit": "1 pacote",
+    "badge": null,
+    "image": "p35.jpg",
+    "weight_grams": 100,
+    "dimensions_mm": {
+      "length": 190,
+      "width": 140,
+      "height": 45
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "f0e37650-a607-5892-b10d-47a41b2ff97e",
+        "sku": "PT-035",
+        "price_cents": 2490,
+        "unit": "1 pacote",
+        "weight_grams": 100,
+        "dimensions_mm": {
+          "length": 190,
+          "width": 140,
+          "height": 45
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 pacote"
+        },
+        "label": "1 pacote"
+      }
+    ]
+  },
+  {
+    "product_id": "d2a57b47-c547-56db-ac0e-a6881ef1a9ed",
+    "variant_id": "6977785d-22cc-5802-ba03-964ca303b502",
+    "sku": "PT-036",
+    "slug": "filtros-de-papel-para-cafeteira",
+    "name": "Filtros de Papel para Cafeteira",
+    "category": "acessorios",
+    "description": "Consumível de referência. Formato e quantidade a confirmar.",
+    "price_cents": 1990,
+    "unit": "1 pacote",
+    "badge": null,
+    "image": "p36.jpg",
+    "weight_grams": 140,
+    "dimensions_mm": {
+      "length": 220,
+      "width": 160,
+      "height": 60
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "6977785d-22cc-5802-ba03-964ca303b502",
+        "sku": "PT-036",
+        "price_cents": 1990,
+        "unit": "1 pacote",
+        "weight_grams": 140,
+        "dimensions_mm": {
+          "length": 220,
+          "width": 160,
+          "height": 60
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 pacote"
+        },
+        "label": "1 pacote"
+      }
+    ]
+  },
+  {
+    "product_id": "a8a3b0d7-c9a3-5b0c-91c1-38692980bfb9",
+    "variant_id": "1f6a3aba-74d6-5a9c-bd5a-319df65a1fa9",
+    "sku": "PT-037",
+    "slug": "servidor-de-cafe",
+    "name": "Servidor de Café",
+    "category": "acessorios",
+    "description": "Servidor de referência. Capacidade e material a confirmar.",
+    "price_cents": 7990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p37.jpg",
+    "weight_grams": 350,
+    "dimensions_mm": {
+      "length": 175,
+      "width": 145,
+      "height": 135
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "1f6a3aba-74d6-5a9c-bd5a-319df65a1fa9",
+        "sku": "PT-037",
+        "price_cents": 7990,
+        "unit": "1 unidade",
+        "weight_grams": 350,
+        "dimensions_mm": {
+          "length": 175,
+          "width": 145,
+          "height": 135
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "41d48f38-2e98-5590-8bba-dbad24da1783",
+    "variant_id": "dc542674-04dd-5dcb-ac53-940b1c1497c1",
+    "sku": "PT-038",
+    "slug": "colher-dosadora",
+    "name": "Colher Dosadora",
+    "category": "acessorios",
+    "description": "Acessório de referência. Material e volume a confirmar.",
+    "price_cents": 2490,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p38.jpg",
+    "weight_grams": 60,
+    "dimensions_mm": {
+      "length": 170,
+      "width": 45,
+      "height": 30
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "dc542674-04dd-5dcb-ac53-940b1c1497c1",
+        "sku": "PT-038",
+        "price_cents": 2490,
+        "unit": "1 unidade",
+        "weight_grams": 60,
+        "dimensions_mm": {
+          "length": 170,
+          "width": 45,
+          "height": 30
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "1067625e-8583-5612-88f1-a129aeeb328e",
+    "variant_id": "43e67cac-6456-5175-a5e1-254ce155939e",
+    "sku": "PT-039",
+    "slug": "pote-hermetico-para-cafe",
+    "name": "Pote Hermético para Café",
+    "category": "acessorios",
+    "description": "Pote de referência. Capacidade e material a confirmar.",
+    "price_cents": 6990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p39.jpg",
+    "weight_grams": 450,
+    "dimensions_mm": {
+      "length": 130,
+      "width": 130,
+      "height": 180
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "43e67cac-6456-5175-a5e1-254ce155939e",
+        "sku": "PT-039",
+        "price_cents": 6990,
+        "unit": "1 unidade",
+        "weight_grams": 450,
+        "dimensions_mm": {
+          "length": 130,
+          "width": 130,
+          "height": 180
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "e27a69d9-b644-591d-8fe3-ef7e45855cd6",
+    "variant_id": "eb01aeae-8fcc-545a-9c60-fd1c575e05cc",
+    "sku": "PT-040",
+    "slug": "caneca-ponto-de-torra",
+    "name": "Caneca Ponto de Torra",
+    "category": "acessorios",
+    "description": "Produto conceitual de marca. Foto não representa uma embalagem oficial.",
+    "price_cents": 5990,
+    "unit": "1 unidade",
+    "badge": "Conceito",
+    "image": "p40.jpg",
+    "weight_grams": 430,
+    "dimensions_mm": {
+      "length": 135,
+      "width": 115,
+      "height": 110
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "eb01aeae-8fcc-545a-9c60-fd1c575e05cc",
+        "sku": "PT-040",
+        "price_cents": 5990,
+        "unit": "1 unidade",
+        "weight_grams": 430,
+        "dimensions_mm": {
+          "length": 135,
+          "width": 115,
+          "height": 110
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "69489e90-3c30-5212-b537-6a42296db73a",
+    "variant_id": "d6c6e988-993a-5afd-a65c-11aabe242e33",
+    "sku": "PT-041",
+    "slug": "copo-termico",
+    "name": "Copo Térmico",
+    "category": "acessorios",
+    "description": "Acessório de referência. Capacidade, material e vedação a confirmar.",
+    "price_cents": 8990,
+    "unit": "1 unidade",
+    "badge": null,
+    "image": "p41.jpg",
+    "weight_grams": 450,
+    "dimensions_mm": {
+      "length": 100,
+      "width": 100,
+      "height": 250
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "d6c6e988-993a-5afd-a65c-11aabe242e33",
+        "sku": "PT-041",
+        "price_cents": 8990,
+        "unit": "1 unidade",
+        "weight_grams": 450,
+        "dimensions_mm": {
+          "length": 100,
+          "width": 100,
+          "height": 250
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 unidade"
+        },
+        "label": "1 unidade"
+      }
+    ]
+  },
+  {
+    "product_id": "43b8f763-8e45-5088-b83e-d976932a8541",
+    "variant_id": "cd4128c4-8f26-58ee-9159-8afb0ac461bb",
+    "sku": "PT-042",
+    "slug": "escovas-de-limpeza",
+    "name": "Conjunto de Escovas de Limpeza",
+    "category": "acessorios",
+    "description": "Fotografia real de um conjunto de escovas para limpeza de utensílios. O modelo final é demonstrativo.",
+    "price_cents": 1990,
+    "unit": "1 conjunto",
+    "badge": null,
+    "image": "p42.jpg",
+    "weight_grams": 160,
+    "dimensions_mm": {
+      "length": 250,
+      "width": 130,
+      "height": 50
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "cd4128c4-8f26-58ee-9159-8afb0ac461bb",
+        "sku": "PT-042",
+        "price_cents": 1990,
+        "unit": "1 conjunto",
+        "weight_grams": 160,
+        "dimensions_mm": {
+          "length": 250,
+          "width": 130,
+          "height": 50
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 conjunto"
+        },
+        "label": "1 conjunto"
+      }
+    ]
+  },
+  {
+    "product_id": "18802b9e-1a08-56f0-8e79-47a3e27f7585",
+    "variant_id": "3b63a99d-b760-5c1f-89a3-cca76248ce14",
+    "sku": "PT-043",
+    "slug": "primeiro-coado",
+    "name": "Primeiro Coado",
+    "category": "kits",
+    "description": "Combinação conceitual de café e método de entrada. Itens a definir.",
+    "price_cents": 13990,
+    "unit": "1 kit",
+    "badge": "Comece por aqui",
+    "image": "p43.jpg",
+    "weight_grams": 780,
+    "dimensions_mm": {
+      "length": 300,
+      "width": 220,
+      "height": 150
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "3b63a99d-b760-5c1f-89a3-cca76248ce14",
+        "sku": "PT-043",
+        "price_cents": 13990,
+        "unit": "1 kit",
+        "weight_grams": 780,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 220,
+          "height": 150
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  },
+  {
+    "product_id": "3c38df77-fe3f-59b4-a7fb-b5e6a95dfa01",
+    "variant_id": "c3738071-d9c1-5593-91b4-34536f270df8",
+    "sku": "PT-044",
+    "slug": "ritual-v60",
+    "name": "Ritual V60",
+    "category": "kits",
+    "description": "Combinação conceitual de café, coador e filtros compatíveis.",
+    "price_cents": 18990,
+    "unit": "1 kit",
+    "badge": null,
+    "image": "p44.jpg",
+    "weight_grams": 950,
+    "dimensions_mm": {
+      "length": 310,
+      "width": 220,
+      "height": 170
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "c3738071-d9c1-5593-91b4-34536f270df8",
+        "sku": "PT-044",
+        "price_cents": 18990,
+        "unit": "1 kit",
+        "weight_grams": 950,
+        "dimensions_mm": {
+          "length": 310,
+          "width": 220,
+          "height": 170
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  },
+  {
+    "product_id": "0df0bbb5-77c7-545c-b908-9268e8556480",
+    "variant_id": "c574fafd-e3ab-5ea0-91b7-145a6affc12b",
+    "sku": "PT-045",
+    "slug": "ritual-prensa",
+    "name": "Ritual Prensa",
+    "category": "kits",
+    "description": "Combinação conceitual de café e prensa. Componentes a definir.",
+    "price_cents": 22990,
+    "unit": "1 kit",
+    "badge": null,
+    "image": "p45.jpg",
+    "weight_grams": 1050,
+    "dimensions_mm": {
+      "length": 330,
+      "width": 220,
+      "height": 170
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "c574fafd-e3ab-5ea0-91b7-145a6affc12b",
+        "sku": "PT-045",
+        "price_cents": 22990,
+        "unit": "1 kit",
+        "weight_grams": 1050,
+        "dimensions_mm": {
+          "length": 330,
+          "width": 220,
+          "height": 170
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  },
+  {
+    "product_id": "651c8e4d-a0f5-5d2f-8d88-166f6c0f26df",
+    "variant_id": "619c6559-1296-5a32-830b-656a2737bd0c",
+    "sku": "PT-046",
+    "slug": "espresso-em-casa",
+    "name": "Espresso em Casa",
+    "category": "kits",
+    "description": "Combinação conceitual para preparo de espresso. Equipamento não incluído.",
+    "price_cents": 15990,
+    "unit": "1 kit",
+    "badge": null,
+    "image": "p46.jpg",
+    "weight_grams": 720,
+    "dimensions_mm": {
+      "length": 300,
+      "width": 220,
+      "height": 120
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "619c6559-1296-5a32-830b-656a2737bd0c",
+        "sku": "PT-046",
+        "price_cents": 15990,
+        "unit": "1 kit",
+        "weight_grams": 720,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 220,
+          "height": 120
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  },
+  {
+    "product_id": "5ed8e807-e2d8-5c27-833c-4c6fb402f0f0",
+    "variant_id": "77c15260-572b-5374-b9eb-1fdfb039e374",
+    "sku": "PT-047",
+    "slug": "cold-brew-em-casa",
+    "name": "Cold Brew em Casa",
+    "category": "kits",
+    "description": "Combinação conceitual para extração a frio. Componentes a definir.",
+    "price_cents": 16990,
+    "unit": "1 kit",
+    "badge": null,
+    "image": "p47.jpg",
+    "weight_grams": 980,
+    "dimensions_mm": {
+      "length": 300,
+      "width": 220,
+      "height": 170
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "77c15260-572b-5374-b9eb-1fdfb039e374",
+        "sku": "PT-047",
+        "price_cents": 16990,
+        "unit": "1 kit",
+        "weight_grams": 980,
+        "dimensions_mm": {
+          "length": 300,
+          "width": 220,
+          "height": 170
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  },
+  {
+    "product_id": "3c884b36-f211-5494-8ea1-8ef009ff50fa",
+    "variant_id": "67d8a816-03e1-5a52-8592-b5b0a9627c12",
+    "sku": "PT-048",
+    "slug": "kit-degustacao-da-casa",
+    "name": "Kit Degustação da Casa",
+    "category": "kits",
+    "description": "Seleção conceitual de cafés para comparar perfis.",
+    "price_cents": 17990,
+    "unit": "1 kit",
+    "badge": null,
+    "image": "p48.jpg",
+    "weight_grams": 780,
+    "dimensions_mm": {
+      "length": 280,
+      "width": 200,
+      "height": 100
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "67d8a816-03e1-5a52-8592-b5b0a9627c12",
+        "sku": "PT-048",
+        "price_cents": 17990,
+        "unit": "1 kit",
+        "weight_grams": 780,
+        "dimensions_mm": {
+          "length": 280,
+          "width": 200,
+          "height": 100
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  },
+  {
+    "product_id": "fcda14e3-1a20-589f-9fe9-32a64e771969",
+    "variant_id": "10995990-95cb-5332-b05b-eaba79fda940",
+    "sku": "PT-049",
+    "slug": "kit-presente-pequeno",
+    "name": "Kit Presente Pequeno",
+    "category": "kits",
+    "description": "Composição ilustrativa. Itens finais e embalagem a definir.",
+    "price_cents": 9990,
+    "unit": "1 kit",
+    "badge": "Para presentear",
+    "image": "p49.jpg",
+    "weight_grams": 820,
+    "dimensions_mm": {
+      "length": 280,
+      "width": 210,
+      "height": 150
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "10995990-95cb-5332-b05b-eaba79fda940",
+        "sku": "PT-049",
+        "price_cents": 9990,
+        "unit": "1 kit",
+        "weight_grams": 820,
+        "dimensions_mm": {
+          "length": 280,
+          "width": 210,
+          "height": 150
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  },
+  {
+    "product_id": "495efb41-ffd7-5057-9a71-2f65adaca7ed",
+    "variant_id": "fea245b3-6db1-5960-91d1-0eb1c6433be0",
+    "sku": "PT-050",
+    "slug": "kit-presente-completo",
+    "name": "Kit Presente Completo",
+    "category": "kits",
+    "description": "Composição ilustrativa. Itens finais e embalagem a definir.",
+    "price_cents": 28990,
+    "unit": "1 kit",
+    "badge": null,
+    "image": "p50.jpg",
+    "weight_grams": 1550,
+    "dimensions_mm": {
+      "length": 340,
+      "width": 260,
+      "height": 190
+    },
+    "stock_on_hand": 12,
+    "variants": [
+      {
+        "variant_id": "fea245b3-6db1-5960-91d1-0eb1c6433be0",
+        "sku": "PT-050",
+        "price_cents": 28990,
+        "unit": "1 kit",
+        "weight_grams": 1550,
+        "dimensions_mm": {
+          "length": 340,
+          "width": 260,
+          "height": 190
+        },
+        "stock_on_hand": 12,
+        "attributes": {
+          "unidade": "1 kit"
+        },
+        "label": "1 kit"
+      }
+    ]
+  }
+]

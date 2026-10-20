@@ -3,13 +3,13 @@ import { writable } from 'svelte/store';
 import type { Product } from '#lib/data/products';
 
 export type CartLine = { product: Product; quantity: number };
-const STORAGE_KEY = 'ponto-de-torra-demo-cart-v1';
+const STORAGE_KEY = 'ponto-de-torra-demo-cart-v3';
 
 function loadSaved(): CartLine[] {
 	if (!browser) return [];
 	try {
 		const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]');
-		return Array.isArray(parsed) ? parsed.filter((line) => line?.product?.id && Number(line.quantity) > 0) : [];
+		return Array.isArray(parsed) ? parsed.filter((line) => line?.product?.id && line?.product?.variantId && Number(line.quantity) > 0) : [];
 	} catch {
 		return [];
 	}

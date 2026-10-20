@@ -1,13 +1,15 @@
 <script lang="ts">
 	import ProductCard from '#lib/components/ProductCard.svelte';
-	import { categories, products } from '#lib/data/products';
+	import { categories } from '#lib/data/products';
+	import type { PageData } from './$types';
+	export let data: PageData;
 	const featuredIds = ['p01', 'p02', 'p07', 'p10', 'p21', 'p29', 'p34', 'p43'];
-	const featured = products.filter((product) => featuredIds.includes(product.id));
+	$: featured = data.products.filter((product) => featuredIds.includes(product.id));
 </script>
 
 <svelte:head>
 	<title>Ponto de Torra — Encontre seu próximo café</title>
-	<meta name="description" content="Cafés especiais, drip coffee, métodos e kits em uma vitrine conceitual para descobrir seu próximo preparo." />
+	<meta name="description" content="Cafés especiais, drip coffee, métodos e kits para descobrir seu próximo preparo." />
 </svelte:head>
 
 <section class="hero wrap" aria-labelledby="hero-title">
@@ -19,9 +21,8 @@
 			<a class="button button-dark" href="/colecao/cafes">Encontrar meu café <span aria-hidden="true">↗</span></a>
 		</div>
 		<div class="hero-visual">
-			<img src="/images/products/p01.jpg" alt="Imagem conceitual de um pacote de café especial servido ao lado de uma xícara" width="760" height="570" fetchpriority="high" />
+			<img src="/images/products/p01.jpg" alt="Pacote de café especial ao lado de uma xícara e grãos torrados" width="760" height="570" fetchpriority="high" />
 			<div class="hero-stamp">01&nbsp; / &nbsp;CAFÉ ESPECIAL</div>
-			<div class="hero-photo-caption">Imagem conceitual gerada para esta vitrine</div>
 		</div>
 	</div>
 </section>
@@ -73,6 +74,6 @@
 </section>
 
 <section class="manifesto wrap">
-	<div><p class="eyebrow">Sobre o projeto</p><h2>Conhecer café<br />também é <em>curtir</em><br />o caminho.</h2></div>
-	<div class="manifesto-copy"><p><strong>Ponto de Torra é uma marca conceitual criada para este projeto de portfólio.</strong> A ideia é apresentar cafés especiais de um jeito direto, acolhedor e sem exigir conhecimento prévio.</p><p>As fotos de produto são imagens conceituais geradas para esta vitrine; elas representam a categoria e o perfil descritos, sem comprovar lote, embalagem, fornecedor ou estoque de uma loja ativa.</p><a class="text-link" href="/sobre">Conheça a proposta ↗</a></div>
+		<div><p class="eyebrow">Nossa proposta</p><h2>Conhecer café<br />também é <em>curtir</em><br />o caminho.</h2></div>
+	<div class="manifesto-copy"><p><strong>Ponto de Torra aproxima cafés especiais da rotina.</strong> Uma seleção de perfis, métodos e acessórios para descobrir novos sabores sem complicar o preparo.</p><p>Encontre o café que combina com seu momento, escolha a moagem ideal e transforme cada pausa em um bom ritual.</p><a class="text-link" href="/sobre">Conheça a Ponto de Torra ↗</a></div>
 </section>

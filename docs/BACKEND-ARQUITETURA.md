@@ -1,58 +1,50 @@
 # Backend — Ponto de Torra
 
-## Decisões aprovadas
+## Decisões
 
-- Projeto Supabase novo e isolado dos projetos das outras lojas.
-- PostgreSQL, Auth e Storage do Supabase.
-- Asaas para checkout/pagamento.
-- Frenet para cotação e operações de frete.
-- Aplicação SvelteKit hospedada na Netlify.
-- A loja continua em modo de portfólio até que catálogo, fotos, fornecedores, preços, estoque, políticas e credenciais reais sejam confirmados.
+- Uma única base Supabase dedicada à loja; Postgres, Auth, Storage, Row Level Security e Vault.
+- Asaas para pagamentos, inicialmente em sandbox.
+- Melhor Envio para cotação em produção; compra de etiquetas permanece desativada nesta etapa.
+- Frontend SvelteKit na Netlify.
+- O site permanece como portfólio até confirmar catálogo comercial, fotos, medidas, preços, estoque, políticas e credenciais.
 
-## Modelo de dados inicial
+## Dados e segurança
 
-A migration `supabase/migrations/20261019000000_initial_schema.sql` prepara categorias, produtos, variantes/SKUs, imagens, funcionários e papéis, pedidos e itens com snapshots, reservas, movimentações, pagamentos e eventos de webhook, remessas, cupons, componentes de kits, conteúdo e auditoria administrativa.
+As migrations preparam catálogo e variantes, papéis de equipe, pedidos e snapshots, estoque e reservas, pagamentos, eventos de webhook, remessas, cupons, conteúdo e auditoria. Valores monetários são centavos; o estoque físico é separado das unidades reservadas.
 
-Valores monetários são guardados em centavos. Estoque físico e estoque reservado ficam separados. Nenhum preço, endereço, total ou estoque enviado pelo navegador será considerado fonte confiável.
+RLS está habilitado nas tabelas expostas. RPCs `SECURITY DEFINER` de pedido, estoque, tokens OAuth e rate limit têm execução restrita a `service_role`. Access e refresh tokens da Melhor Envio são armazenados no Vault, nunca no navegador nem em texto plano numa tabela pública. Preços, CEP, dimensões e estoque são lidos do servidor.
 
-## Fluxo transacional previsto
+## Pedido, estoque e frete
 
-1. O servidor valida o carrinho, consulta preços e disponibilidade no Supabase e calcula descontos.
-2. O servidor valida o CEP e recalcula a cotação escolhida na Frenet com pesos e dimensões cadastrados.
-3. Em uma operação transacional, cria pedido e snapshots dos itens; a função `reserve_order_stock` reserva as unidades sem permitir saldo negativo nem overselling concorrente.
-4. O servidor cria um Checkout Asaas e relaciona o ID ao pedido por `externalReference`; o pedido continua pendente.
-5. Um webhook Asaas autenticado e idempotente consulta/valida o estado financeiro. Só o evento confiável de pagamento aprovado converte reserva em baixa definitiva e libera o processamento do pedido.
-6. Falha, expiração ou cancelamento libera a reserva uma única vez. Estorno não recompõe estoque até a conferência física da devolução.
-7. A operação de expedição registra serviço, etiqueta e rastreio Frenet apenas quando a API confirmar esses recursos.
+1. O backend valida variantes e quantidades pelo catálogo e estoque disponível.
+2. A Edge Function de cotações pede CEP, calcula dimensões e envia produtos com preço de seguro à API oficial Melhor Envio.
+3. A opção cotada é salva por dez minutos, vinculada a um fingerprint do carrinho, CEP, serviço, transportadora, preço e prazo.
+4. A criação do pedido consome uma opção não expirada e não usada. O trigger do banco verifica que o CEP do endereço coincide com o CEP cotado; um RPC transacional calcula os preços do banco e reserva estoque sem overselling.
+5. O backend cria a cobrança/checkout Asaas. O redirecionamento do navegador não confirma pagamento.
+6. Um webhook autenticado e idempotente consulta e valida status, pedido e valor. Só a confirmação real de pagamento converte a reserva em baixa única de estoque.
+7. Depois da aprovação do pagamento, a operação cria e acompanha a remessa Melhor Envio; falhas/cancelamentos liberam reservas segundo a política de estoque.
 
-O callback de sucesso no navegador nunca confirma pagamento. Webhooks podem ser repetidos ou chegar fora de ordem, portanto o processamento precisa ser idempotente e validar pedido, valor, moeda e identificadores no servidor.
+## Endpoints Supabase
 
-## Integrações e credenciais
-
-O `.env.example` contém apenas nomes de variáveis, sem valores secretos. `SUPABASE_SECRET_KEY`, `ASAAS_API_KEY`, `ASAAS_WEBHOOK_AUTH_TOKEN` e os dois tokens Frenet devem existir somente no ambiente de servidor/Netlify. Nunca usar prefixo `PUBLIC_` para esses segredos.
-
-O Asaas documenta Checkout hospedado com Pix e cartão, associação por `externalReference` e confirmação por webhooks. A criação do Checkout ou o redirecionamento não significa que houve pagamento.
-
-A documentação de autenticação da Frenet exige Token do cliente e Partner Token. A referência atual da cotação expõe um endereço HTTP; por segurança, nenhum token ou dado de cliente será enviado antes de a Frenet confirmar um endpoint HTTPS de homologação e fornecer o Partner Token correspondente. O token de produção depende do processo de homologação da Frenet.
-
-## Contrato de endpoints a implementar
-
-| Método e rota | Acesso | Responsabilidade |
+| Edge Function | Acesso | Responsabilidade |
 |---|---|---|
-| `POST /api/shipping/quotes` | Público, limitado por IP | Recebe CEP e variantes/quantidades; recalcula cubagem/preço no servidor; retorna opções Frenet com prazo e validade curta. |
-| `POST /api/orders` | Público, protegido contra abuso | Valida campos; refaz totais e frete; cria pedido idempotente; reserva estoque; cria Checkout Asaas; responde somente com número do pedido e URL de pagamento. |
-| `POST /api/webhooks/asaas` | Webhook autenticado | Deduplica evento; confirma estado e valor; atualiza pagamento/pedido e executa a baixa de estoque uma única vez. |
-| `GET /api/admin/*` e `POST/PATCH /api/admin/*` | Funcionário autenticado | CRUD de catálogo/conteúdo/cupons, estoque auditável e operações de pedido; autorização checada no servidor e reforçada por RLS. |
+| `melhor-envio-oauth-start` | JWT de administrador | Gera state de uso único e inicia o OAuth. |
+| `melhor-envio-oauth-callback` | Callback público de OAuth | Consome state e grava tokens rotacionáveis no Vault. |
+| `melhor-envio-quotes` | Público, rate limit | Calcula opções usando catálogo e endereço cotado no servidor. |
+| `asaas-create-checkout` | Ativa no Supabase (v4) | Cria pedido e reserva, gera checkout PIX/cartão no Sandbox, persiste link e impede duplicidade por pedido. Recusa produto sem imagem principal no Storage; aceita origem local para testes. |
+| `asaas-webhook` | Ativa no Supabase (v3) | Valida `asaas-access-token`, deduplica por ID de evento e confirma pagamento/baixa ou libera reserva. |
+| etiqueta, rastreio e cancelamento | Pendente | Executa ciclo logístico após o pedido ser pago. |
 
-## Pontos ainda pendentes antes da aplicação remota
+## Configuração e estado
 
-1. Criar um projeto Supabase separado na organização escolhida, definir região e revisar o custo que o painel da Supabase cotar.
-2. Confirmar se será usado sandbox do Asaas e obter credencial de API/webhook.
-3. Obter da Frenet conta/tokens de homologação, Partner Token e URL HTTPS.
-4. Aplicar a migration no projeto novo, verificar advisors de segurança/performance e gerar tipos TypeScript.
-5. Implementar e testar autenticação admin, endpoints, webhook, baixa final de estoque e expiração automática de reservas.
-6. Validar integração E2E em sandbox antes de qualquer mudança para produção.
+As variáveis e os passos para criar o app estão em `docs/CONFIGURACAO-MELHOR-ENVIO.md` e `.env.example`. Segredos devem ser definidos em Supabase Edge Function Secrets. O projeto ativo é `Ponto de Torra` (`ujmjeizvektvctfrlgia`) e a nova migração mantém uma única base.
 
-## Status desta entrega
+O backend de cotação está preparado e ativo no Supabase (v14); sua execução depende do app OAuth da Melhor Envio, CEP de origem, User-Agent e credenciais configuradas. Checkout e webhook Asaas estão ativos no Supabase Sandbox; o responsável confirmou o token do webhook e o pepper de rate limit. Ainda faltam catálogo/imagens e testes integrados locais. Etiquetas e rastreio seguem pendentes; não abrir vendas antes desses testes.
 
-A migration e o contrato inicial estão preparados no repositório. Nenhum projeto/banco remoto foi criado ou alterado, nenhuma credencial foi recebida e as rotas de integração ainda não estão implementadas. O checkout do site permanece demonstrativo.
+## Checkout Asaas (sandbox)
+
+`POST /functions/v1/asaas-create-checkout` recebe `idempotency_key`, `shipping_quote_option_id`, `customer`, `shipping_address` e itens `{ variant_id, quantity }`. O cliente não escolhe preço, total, link do Asaas ou situação do pagamento. O servidor calcula o fingerprint do carrinho, chama `create_order_and_reserve`, monta itens com snapshots do banco e só envia o checkout quando cada produto tiver imagem principal acessível no bucket `product-images`. A API atual do Asaas exige `imageBase64` nos itens.
+
+O pagamento permanece em Sandbox (`ASAAS_API_BASE_URL=https://api-sandbox.asaas.com/v3`) e usa PIX e cartão à vista. A resposta retorna `checkout_url`; o redirecionamento do navegador não altera o pedido. Se a chamada à API expirar sem resposta, a função mantém a trava e não cria outra sessão automaticamente para evitar duplicidade; a reconciliação manual ainda precisa ser definida.
+
+`POST /functions/v1/asaas-webhook` compara `ASAAS_WEBHOOK_AUTH_TOKEN` com o cabeçalho `asaas-access-token`. `CHECKOUT_PAID` chama `commit_order_stock`; cancelamento/expiração chama a liberação da reserva. Eventos repetidos são deduplicados por `(provider, provider_event_id)`. Use token com pelo menos 32 caracteres, sem espaços e diferente da API key.

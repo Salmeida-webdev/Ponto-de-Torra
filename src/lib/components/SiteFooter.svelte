@@ -10,12 +10,12 @@
 		</div>
 		<div class="footer-links">
 			<div><h2>Explore</h2><a href="/colecao/cafes">Cafés</a><a href="/colecao/drip">Drip coffee</a><a href="/colecao/metodos">Métodos & acessórios</a><a href="/colecao/kits">Kits & presentes</a></div>
-			<div><h2>Conhecimento</h2><a href="/guia-de-moagem">Guia de moagem</a><a href="/guia-de-preparo">Guia de preparo</a><a href="/perguntas-frequentes">Perguntas frequentes</a><a href="/sobre">Sobre o projeto</a></div>
-			<div><h2>Transparência</h2><a href="/politicas">Políticas da demonstração</a><a href="/creditos">Créditos das imagens</a><a href="/contato">Contato</a></div>
+			<div><h2>Conhecimento</h2><a href="/guia-de-moagem">Guia de moagem</a><a href="/guia-de-preparo">Guia de preparo</a><a href="/perguntas-frequentes">Perguntas frequentes</a><a href="/sobre">Nossa história</a></div>
+			<div><h2>Informações</h2><a href="/politicas">Privacidade e políticas</a><a href="/creditos">Créditos visuais</a><a href="/contato">Contato</a></div>
 		</div>
 	</div>
 	<div class="footer-bottom wrap">
-		<span>© {new Date().getFullYear()} Ponto de Torra · Projeto demonstrativo</span>
+		<span>© {new Date().getFullYear()} Ponto de Torra</span>
 		<span class="developer-credit">Desenvolvido por LMX Soluções Digitais/Segundo Almeida</span>
 	</div>
 </footer>

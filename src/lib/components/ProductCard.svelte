@@ -8,7 +8,7 @@
 <article class="product-card">
 	<a class="product-card-image" href={`/produto/${product.slug}`} aria-label={`Ver ${product.name}`}>
 		{#if product.badge}<span class="product-badge">{product.badge}</span>{/if}
-		<img src={product.image} alt={`Imagem conceitual de ${product.name}`} width="760" height="570" loading="lazy" decoding="async" on:load={() => (loaded = true)} class:loaded />
+		<img src={product.image} alt={product.name} width="760" height="570" loading="lazy" decoding="async" on:load={() => (loaded = true)} class:loaded />
 		<span class="card-category">{categoryName(product.category)}</span>
 	</a>
 	<div class="product-card-copy">
